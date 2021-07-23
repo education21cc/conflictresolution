@@ -175,7 +175,7 @@ const ConflictModalContent = (props: Props) => {
       left: 0,
       ease: Sine.easeInOut,
     }, "-=1");
-  }, [content.sequence]);
+  }, [content.sequence, translations]);
 
   const positionArrow = () => {
     if (!balloonRef.current || !balloonArrowRef.current) return;

@@ -113,10 +113,10 @@
     }],
     "sequence": [{
       "type": "caption",
-      "text": "You’re having a meal in the break room when you hear some gossip about Maya shouting at Jay the day before. You see Jay and Maya separately and ask them what had happened."
+      "text": "scenario-jayandmaya-caption"
     }, {
       "type": "speech",
-      "text": "I clean out the shared refrigerator regularly and accidentally threw out Maya’s leftovers yesterday. She absolutely went off at me for that! No one appreciates the effort I put in to keep this place clean.",
+      "text": "scenario-jayandmaya-speech1",
       "balloonArrowPos": 27,
       "scene": [{
         "image":  "images/conflict/cantina/jay-stockroom.png"
@@ -127,7 +127,7 @@
       }]
     }, {
       "type": "speech",
-      "text": "I had left some food in the fridge and found it missing! What gave Jay the right to discard it? People should respect others’ personal belongings..",
+      "text": "scenario-jayandmaya-speech2",
       "balloonArrowPos": 20,
       "scene": [{
         "image":  "images/conflict/cantina/maya-sitting.png"
@@ -484,6 +484,18 @@
     {
         "key": "scenario-jayandmaya-header",
         "value": "Jay and Maya"
+    },
+    {
+        "key": "scenario-jayandmaya-caption",
+        "value": "You’re having a meal in the break room when you hear some gossip about Maya shouting at Jay the day before. You see Jay and Maya separately and ask them what had happened."
+    },
+    {
+        "key": "scenario-jayandmaya-speech1",
+        "value": "I clean out the shared refrigerator regularly and accidentally threw out Maya’s leftovers yesterday. She absolutely went off at me for that! No one appreciates the effort I put in to keep this place clean."
+    },
+    {
+        "key": "scenario-jayandmaya-speech2",
+        "value": "I had left some food in the fridge and found it missing! What gave Jay the right to discard it? People should respect others’ personal belongings.."
     },
 
     {
