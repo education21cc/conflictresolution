@@ -1,11 +1,11 @@
 import React from "react";
-import { AnyContent } from "../../common/constants";
+import { ConflictContent } from "../../common/constants";
 import { ReactComponent as CheckSvg } from './../../images/ui/check.svg';
 import "./legenda.css";
 
 interface Props {
     avatar: string;
-    content: AnyContent[];
+    content: ConflictContent[];
     answers: number[];
     setSituationSelected: React.Dispatch<React.SetStateAction<number | null>>;
 }
@@ -13,7 +13,7 @@ interface Props {
 const Legenda = (props: Props) => {
     const {content} = props;
 
-    const renderContent = (item: AnyContent, index: number) => {
+    const renderContent = (item: ConflictContent, index: number) => {
         const completed = props.answers[index] === undefined;
         const handleClick = () => {
             props.setSituationSelected(index);

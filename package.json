@@ -2,7 +2,7 @@
   "name": "conflictresolution",
   "version": "0.1.0",
   "private": true,
-  "homepage-github": "https://spassvogel.github.io/conflictresolution",
+  "homepage-github": "https://21cceducation.github.io/conflictresolution",
   "homepage": "./",
   "dependencies": {
     "@inlet/react-pixi": "^1.2.18",
@@ -29,6 +29,7 @@
     "typescript": "~3.7.2"
   },
   "scripts": {
+    "start:player": "REACT_APP_PLAYER_MODE=true react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:player": "REACT_APP_PLAYER_MODE=true react-scripts build",

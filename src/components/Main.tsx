@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect, useMemo } from "react";
 import { Viewport as PixiViewport } from "pixi-viewport";
-import { AnyContent } from "../common/constants";
+import { ConflictContent } from "../common/constants";
 import sound from 'pixi-sound';
 import Marker from "./pixi/Marker";
 import { Stage, Sprite } from "@inlet/react-pixi";
@@ -22,7 +22,7 @@ gsap.registerPlugin(PixiPlugin);
 // }
 
 interface Props {
-  content: AnyContent[];
+  content: ConflictContent[];
   answers: number[];
   avatar: string;
   setAnswers: (value: number[]) => void;
@@ -83,7 +83,7 @@ const Main = (props: Props) => {
     });    
   }, []);
 
-  const handleMarkerClick = (content: AnyContent, index: number) => {
+  const handleMarkerClick = (content: ConflictContent, index: number) => {
     setSelectedSituation(index);
   }
 
@@ -106,7 +106,7 @@ const Main = (props: Props) => {
     return content?.[selectedSituation];
   }, [content, selectedSituation]);
   
-  const renderMarker = (contentItem: AnyContent, index: number) => {
+  const renderMarker = (contentItem: ConflictContent, index: number) => {
     const delay = index * 0.5;
     const position = new PIXI.Point(contentItem.position[0], contentItem.position[1]);
     const bounce = answers[index] === undefined;
