@@ -86,7 +86,12 @@ function App() {
           setSituationOpen={setSituationOpen}
         /> 
       )}
-      { showCompleted && avatar && (<CompleteModal avatar={avatar} restart={handleRestart}/>)}
+      { showCompleted && avatar && (
+        <CompleteModal
+          avatar={avatar} 
+          restart={handleRestart}
+          translations={translations}
+        />)}
     </>  
   )
 };

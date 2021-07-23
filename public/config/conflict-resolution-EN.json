@@ -388,6 +388,16 @@
       "key": "replay-button",
       "value": "replay"
     },
+
+    {
+      "key": "complete-header",
+      "value": "Game completed!"
+    },
+    {
+      "key": "complete-congrats",
+      "value": "Congratulations, your warehouse is now a conflict-free zone!      "
+    },
+
     {
         "key": "scenario-kumar-header",
         "value": "The Trouble with Kumar"

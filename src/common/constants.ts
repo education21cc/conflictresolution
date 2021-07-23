@@ -1,10 +1,4 @@
 
-// export interface IContent<T extends YoutubeContent | OptionsContent | IframeContent | ConflictContent> {
-//   position: number[];
-//   type: ContentType;
-//   content: T;
-// }
-
 export interface ConflictContent {
   header: string;
   position: number[];

@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactModal from 'react-modal';
-import './completeModal.css';
 import { Stage, Sprite } from '@inlet/react-pixi';
+import './completeModal.css';
 
 interface Props {
   avatar: string;
+  translations: { [key: string]: string}
   restart: () => void;
 }
 
@@ -12,7 +13,7 @@ const stageHeight = 720;
 const stageWidth = 1280;
 
 const CompleteModal = (props: Props) => {
-
+  const { translations } = props;
   return (
     <ReactModal
       isOpen={true}
@@ -22,7 +23,7 @@ const CompleteModal = (props: Props) => {
       className="modal modal-complete"
     >
       <div className="modal-content">
-        <h1 className="header">Game completed!</h1>
+        <h1 className="header">{translations["complete-header"]}</h1>
 
         <div className="avatar-selection">
           <Stage width={stageWidth} height={stageHeight} options={{ backgroundColor: 0xffffff}}>
@@ -42,10 +43,10 @@ const CompleteModal = (props: Props) => {
           </Stage>
           <div className="footer">
             <p className="subtext">
-            Congratulations, your warehouse is now a conflict-free zone!
+              {translations["complete-congrats"]}
             <br/>
             <button onClick={props.restart}>
-              Replay
+              {translations["replay-button"]}
             </button>
             </p>
           </div>
