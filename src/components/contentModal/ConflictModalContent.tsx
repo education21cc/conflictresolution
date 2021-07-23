@@ -243,13 +243,13 @@ const ConflictModalContent = (props: Props) => {
     if (!confirmed) {
       return (
         <>
-          <p>{reaction.confirmText}</p>
+          <p>{translations[reaction.confirmText]}</p>
           <p className="yesno">
-            <button onClick={handleYes}>yes</button>
+            <button onClick={handleYes}>{translations["yes"]}</button>
             <span className="motivation">{reaction.yesText}</span>
           </p>
           <p className="yesno">
-            <button onClick={handleNo}>no</button>
+            <button onClick={handleNo}>{translations["no"]}</button>
             <span className="motivation">{reaction.noText}</span>
           </p>
         </>

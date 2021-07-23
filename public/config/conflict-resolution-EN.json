@@ -70,7 +70,7 @@
       "scenario-kumar-option3"
     ],
     "reactions": [{
-      "confirmText": "Are you sure you want to terminate Kumar without giving him a chance to take responsibility?",
+      "confirmText": "scenario-kumar-reaction1-confirm",
       "yesText": "he’s hampering warehouse productivity",
       "noText": "I’m a softie; I can’t fire anyone really",
       "correct": false,
@@ -369,6 +369,14 @@
       "value": "Start"
     },
     {
+      "key": "yes",
+      "value": "Yes"
+    },
+    {
+      "key": "no",
+      "value": "No"
+    },
+    {
         "key": "scenario-kumar-header",
         "value": "The Trouble with Kumar"
     },    
@@ -407,6 +415,10 @@
     {
         "key": "scenario-kumar-option3",
         "value": "Set strict productivity targets for Kumar"
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm",
+        "value": "Are you sure you want to terminate Kumar without giving him a chance to take responsibility?"
     },
     {
         "key": "scenario-jayandmaya-header",
