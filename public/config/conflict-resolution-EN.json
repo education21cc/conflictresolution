@@ -149,11 +149,11 @@
         "image": "images/conflict/cantina/jay-and-maya.png"
       }]
     }],
-    "description": "Jay and Maya are not speaking to each other. How should you handle this situation?",
+    "description": "scenario-jayandmaya-description",
     "options": [
-      "Avoid confrontation as long as it doesn’t affect their productivity",
-      "Talk to Maya and tell her not to take Jay’s action personally",
-      "Facilitate a discussion between the two to arrive at a resolution"
+      "scenario-jayandmaya-option1",
+      "scenario-jayandmaya-option2",
+      "scenario-jayandmaya-option3"
     ],
     "reactions": [{
       "confirmText": "Are you sure you want to avoid any confrontations?",
@@ -496,6 +496,22 @@
     {
         "key": "scenario-jayandmaya-speech2",
         "value": "I had left some food in the fridge and found it missing! What gave Jay the right to discard it? People should respect others’ personal belongings.."
+    },
+    {
+        "key": "scenario-jayandmaya-description",
+        "value": "Jay and Maya are not speaking to each other. How should you handle this situation?"
+    },
+    {
+        "key": "scenario-jayandmaya-option1",
+        "value": "Avoid confrontation as long as it doesn’t affect their productivity"
+    },
+    {
+        "key": "scenario-jayandmaya-option2",
+        "value": "Talk to Maya and tell her not to take Jay’s action personally"
+    },
+    {
+        "key": "scenario-jayandmaya-option3",
+        "value": "Facilitate a discussion between the two to arrive at a resolution"
     },
 
     {
