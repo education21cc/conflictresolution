@@ -7,7 +7,7 @@
     "position": [1381, 848],
     "header": "scenario-kumar-header",
     "scene": [{
-      "image":  "images/conflict/kumar/background.png"
+      "image": "images/conflict/kumar/background.png"
     }, {
       "image":  "images/conflict/kumar/dev.png",
       "position": [784, 175]
@@ -20,14 +20,14 @@
     }],
     "sequence": [{
       "type": "caption",
-      "text": "As you’re taking a round in the warehouse in the morning, Dev approaches you with a complaint against his team mate, Kumar"
+      "text": "scenario-kumar-caption"
     }, {
       "type": "speech",
-      "text": "Kumar and I are scheduled for the same warehouse shift.",
+      "text": "scenario-kumar-speech1",
       "balloonArrowPos": 33
     }, {
       "type": "speech",
-      "text": "He regularly plays games on his cell phone while I pick the orders.",
+      "text": "scenario-kumar-speech2",
       "scene": [{
         "image":  "images/conflict/kumar/background.png"
       }, {
@@ -46,10 +46,10 @@
       }]
     }, {
       "type": "speech",
-      "text": "I have to do the bulk of the work while he plays."
+      "text": "scenario-kumar-speech3"
     }, {
       "type": "speech",
-      "text": "I've asked him on four different occasions to help me, but he doesn't listen to me.",
+      "text": "scenario-kumar-speech4",
       "scene": [{
         "image":  "images/conflict/kumar/background.png"
       }, {
@@ -371,8 +371,27 @@
     {
         "key": "scenario-kumar-header",
         "value": "The Trouble with Kumar"
+    },    
+    {
+        "key": "scenario-kumar-caption",
+        "value": "As you’re taking a round in the warehouse in the morning, Dev approaches you with a complaint against his team mate, Kumar"
     },
-    
+    {
+        "key": "scenario-kumar-speech1",
+        "value": "Kumar and I are scheduled for the same warehouse shift."
+    },
+    {
+        "key": "scenario-kumar-speech2",
+        "value": "He regularly plays games on his cell phone while I pick the orders."
+    },
+    {
+        "key": "scenario-kumar-speech3",
+        "value": "I have to do the bulk of the work while he plays."
+    },
+    {
+        "key": "scenario-kumar-speech4",
+        "value": "I've asked him on four different occasions to help me, but he doesn't listen to me."
+    },
     {
         "key": "scenario-jayandmaya-header",
         "value": "Jay and Maya"

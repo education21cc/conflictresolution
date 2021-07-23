@@ -18,7 +18,7 @@ interface Props {
 }
 
 const ConflictModalContent = (props: Props) => {
-  const {content, avatar, selectedAnswer = null} = props;
+  const {content, translations, avatar, selectedAnswer = null} = props;
   const [selectedOption, selectOption] = useState<number | null>(selectedAnswer);
   // Reaction based on current selection
   const reaction = useMemo(() => {
@@ -87,7 +87,7 @@ const ConflictModalContent = (props: Props) => {
     inset.removeAttribute('style');
 
     // Build timeline
-    balloonText.innerHTML = content.sequence[0].text;
+    balloonText.innerHTML = translations[content.sequence[0].text];
 
     // All the sequences
     content.sequence.forEach((sequenceItem, index) => {
@@ -100,7 +100,7 @@ const ConflictModalContent = (props: Props) => {
           if (balloonRef.current) {
             balloonRef.current!.className = `balloon ${sequenceItem.type}`;
           }
-          balloonText.innerHTML = sequenceItem.text;
+          balloonText.innerHTML = translations[sequenceItem.text];
           
           if (sequenceItem.balloonArrowPos && balloonArrowRef.current) {
             balloonArrowRef.current!.style.right = `${sequenceItem.balloonArrowPos}%`;  
@@ -118,9 +118,9 @@ const ConflictModalContent = (props: Props) => {
         case SequenceItemType.caption:
           tl.to(balloonText, {
             onStart,
-            duration: sequenceItem.text.length * 0.025 / SPEED_MODIFIER,
+            duration: translations[sequenceItem.text].length * 0.025 / SPEED_MODIFIER,
             text: {
-              value: sequenceItem.text, 
+              value: translations[sequenceItem.text], 
               oldClass: "hidden",
               newClass: "visible"
             },
@@ -131,7 +131,7 @@ const ConflictModalContent = (props: Props) => {
         case SequenceItemType.speech:
           tl.to(balloonText, {
             onStart,
-            duration: sequenceItem.text.length * 0.045 / SPEED_MODIFIER,
+            duration: translations[sequenceItem.text].length * 0.045 / SPEED_MODIFIER,
             ease: Linear.easeNone,
           });
           break;
