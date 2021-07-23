@@ -65,9 +65,9 @@
     }],
     "description": "scenario-kumar-description",
     "options": [
-      "Send Kumar a notification of termination",
-      "Scold Kumar in front of his team mates",
-      "Set strict productivity targets for Kumar"
+      "scenario-kumar-option1",
+      "scenario-kumar-option2",
+      "scenario-kumar-option3"
     ],
     "reactions": [{
       "confirmText": "Are you sure you want to terminate Kumar without giving him a chance to take responsibility?",
@@ -395,6 +395,18 @@
     {
         "key": "scenario-kumar-description",
         "value": "You’ve already reprimanded Kumar in the past about his slack behaviour. What kind of disciplinary action should you take against him now?"
+    },
+    {
+        "key": "scenario-kumar-option1",
+        "value": "Send Kumar a notification of termination"
+    },
+    {
+        "key": "scenario-kumar-option2",
+        "value": "Scold Kumar in front of his team mates"
+    },
+    {
+        "key": "scenario-kumar-option3",
+        "value": "Set strict productivity targets for Kumar"
     },
     {
         "key": "scenario-jayandmaya-header",

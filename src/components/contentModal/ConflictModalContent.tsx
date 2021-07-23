@@ -274,7 +274,7 @@ const ConflictModalContent = (props: Props) => {
       return (
         <li key={option} className="normal" onClick={(e) => handleOptionClick(e.currentTarget, index)} >
           <div className="text">
-            {option}
+            {translations[option]}
           </div>
         </li>
       );
@@ -289,7 +289,7 @@ const ConflictModalContent = (props: Props) => {
       return (
         <li key={option} className={className} >
           <div className="text">
-            {option}
+           {translations[option]}
           </div>
         </li>
       );
