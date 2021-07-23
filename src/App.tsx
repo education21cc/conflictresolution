@@ -13,6 +13,7 @@ function App() {
   const [answers, setAnswers] = useState<number[]>([]);
   const [avatar, setAvatar] = useState<string>("avatar1");
   const [situationIsOpen, setSituationOpen] = useState(false);
+  const [translations, setTranslations] = useState<{[key: string]: string}>({});
   const [data, setData] = useState<GameData<ConflictContent[]>>();
   const content = useMemo(() => data?.content, [data]);
 
@@ -25,11 +26,11 @@ function App() {
     setData(data);
     
     if (data.translations){
-      // const t = data.translations.reduce<{[key: string]: string}>((acc, translation) => {
-      //   acc[translation.key] = translation.value;
-      //   return acc;
-      // }, {});
-      // setTranslations(t);
+      const t = data.translations.reduce<{[key: string]: string}>((acc, translation) => {
+        acc[translation.key] = translation.value;
+        return acc;
+      }, {});
+      setTranslations(t);
     }
   }, []);
 
@@ -68,7 +69,13 @@ function App() {
   return (
     <>
       <PlayerBridge gameDataReceived={handleGameDataReceived}/>
-      { intro && (<IntroModal selectedAvatar={avatar} onClose={() => {setIntro(false)}} onChangeAvatar={setAvatar}/>)}
+      { intro && (
+        <IntroModal
+          translations={translations}
+          selectedAvatar={avatar} 
+          onClose={() => {setIntro(false)}} 
+          onChangeAvatar={setAvatar}/>
+        )}
       { !showCompleted && !intro && avatar && content && <Main content={content} avatar={avatar} answers={answers} setAnswers={setAnswers} setSituationOpen={setSituationOpen}/> }
       { showCompleted && avatar && (<CompleteModal avatar={avatar} restart={handleRestart}/>)}
     </>  

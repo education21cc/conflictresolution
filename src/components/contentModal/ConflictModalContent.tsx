@@ -295,7 +295,6 @@ const ConflictModalContent = (props: Props) => {
     }
   }
 
-  console.log(content)
   return (
     <div className="modal-content modal-conflict" ref={ref}>
       <div className="situation" onClick={handleSkipSequenceStep}>

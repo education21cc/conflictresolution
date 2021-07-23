@@ -1,12 +1,12 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ReactModal from 'react-modal';
-import './introModal.css';
 import { Stage, Sprite, Container } from '@inlet/react-pixi';
 import {OutlineFilter} from '@pixi/filter-outline';
-import * as PIXI from 'pixi.js';
+import './introModal.css';
 
 interface Props {
   selectedAvatar?: string;
+  translations: { [key: string]: string}
   onClose: () => void;
   onChangeAvatar: (name: string) => void;
 }
@@ -15,7 +15,7 @@ const stageHeight = 720;
 const stageWidth = 1280;
 
 const IntroModal = (props: Props) => {
-  const {selectedAvatar} = props;
+  const {selectedAvatar, translations} = props;
 
   const renderAvatar = (name: string, index: number, flipped: boolean = false) => {
     const filters = selectedAvatar === name ? [new OutlineFilter(4, 0xffcc00)] : [];
@@ -47,12 +47,11 @@ const IntroModal = (props: Props) => {
       onRequestClose={props.onClose}
     >
       <div className="modal-content">
-        <h1 className="header">Strife and Fracas?</h1>
+        <h1 className="header">{translations["intro-header"]}</h1>
 
         <div className="avatar-selection">
           <Stage width={stageWidth} height={stageHeight} options={{ backgroundColor: 0xffffff}}>
             <Sprite image={`${process.env.PUBLIC_URL}/images/avatars/background.png`} 
-              // filters={[new PIXI.filters.BlurFilter(4)]} 
               scale={1} 
               anchor={.5}
               y={stageHeight / 2}
@@ -67,17 +66,15 @@ const IntroModal = (props: Props) => {
           </Stage>
           <div className="footer">
             <p className="subtext">
-            Discord and tensions are particularly high in the warehouse today. 
-            As a manager, you have to play the role of a mediator to resolve conflicts and get people working towards common goals.
-            See if you can resolve the conflicts popping up all over the warehouse.
+              {translations["intro-subtext"]}
             <br/>
-            Choose an avatar to start playing.    
+             {translations["intro-choose-avatar"]}
             </p>
             <button 
               onClick={props.onClose} 
               disabled={props.selectedAvatar === undefined}
             >
-              Start
+              {translations["intro-start"]}
             </button>
           </div>
         </div>
