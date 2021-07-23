@@ -201,14 +201,14 @@
     }],
     "sequence": [{
       "type": "caption",
-      "text": "Two team leaders visit you in your office with a scheduling conflict for which they can’t work out an amiable solution. "
+      "text": "scenario-stackedagainstus-caption"
     }, {
       "type": "speech",
-      "text": "Both our teams are scheduled to carry out an inventory accuracy check right now for two different customers. As you know, we only have one electric stacker in the warehouse, and both our teams need it to bring down products from heavy duty racks",
+      "text": "scenario-stackedagainstus-speech1",
       "balloonArrowPos": 68
     }, {
       "type": "speech",
-      "text": "We can’t reach a compromise; which team should get the electric stacker?"
+      "text": "scenario-stackedagainstus-speech2"
     }, {
       "type": "image",
       "scene": [{
@@ -220,18 +220,18 @@
         "pose": "stress"
       }]
     }],
-    "description": "How should you manage this intergroup conflict?",
+    "description": "scenario-stackedagainstus-description",
     "options": [
-      "Analyse load and priority of customers and allocate stacker accordingly",
-      "Motivate the team leaders to collaborate on finding the best solution",
-      "Tell management you need to buy another stacker for the warehouse"
+      "scenario-stackedagainstus-option1",
+      "scenario-stackedagainstus-option2",
+      "scenario-stackedagainstus-option3"
     ],
     "reactions": [{
-      "confirmText": "Are you sure you want to make this decision on behalf of both parties?",
-      "yesText": "it would be the easiest way to resolve this conflict",
-      "noText": "I want to inculcate decision-making skills in my staff",
+      "confirmText": "scenario-stackedagainstus-reaction1-confirm",
+      "yesText": "scenario-stackedagainstus-reaction1-confirm-yes",
+      "noText": "scenario-stackedagainstus-reaction1-confirm-no",
       "correct": false,
-      "text": "You analysed the load and priority of both customer operations and made the decision to allocate the stacker towards checking the inventory of the customer that brings in greater revenue. \n The team leader in charge of the other account is not happy about your decision and, in the absence of an open discussion, thinks that you showed favouritism.\nMoreover, it does not give people the confidence that they are capable of handling issues on their own.",
+      "text": "scenario-stackedagainstus-reaction1-text",
       "scene": [{
         "image":  "images/conflict/stacker/question.png"
       }, {
@@ -241,11 +241,11 @@
         "pose": "thinking"
       }]
     }, {
-      "confirmText": "Are you sure you want to spend time on motivating the team leaders to arrive at a solution together? It would easier to make a decision yourself.",
-      "yesText": "the team leaders should be able to collaborate on a solution",
-      "noText": "that’s right, it would be easier to make a decision on my own",
+      "confirmText": "scenario-stackedagainstus-reaction2-confirm",
+      "yesText": "scenario-stackedagainstus-reaction2-confirm-yes",
+      "noText": "scenario-stackedagainstus-reaction2-confirm-no",
       "correct": true,
-      "text": "Allowing members to work together in finding a resolution is a great approach. An open discussion that looks at the perspectives of both parties and identifies the conflict’s impacts on their separate operations leads to a greater understanding between colleagues.\nThis not only improves employee relationships but increases collaboration and efficiency as people learn to arrive at solutions together without always pushing the issues up the organisational chain.",
+      "text": "scenario-stackedagainstus-reaction2-text",
       "scene": [{
         "image":  "images/conflict/stacker/resolved.png"
       }, {
@@ -255,11 +255,11 @@
         "flipped": true
       }]
     }, {
-      "confirmText": "Are you sure you want to purchase an additional stacker?",
-      "yesText": "it would prevent this kind of problem from occurring ever again",
-      "noText": "it would mean a huge expense for an infrequent scheduling issue",
+      "confirmText": "scenario-stackedagainstus-reaction3-confirm",
+      "yesText": "scenario-stackedagainstus-reaction3-confirm-yes",
+      "noText": "scenario-stackedagainstus-reaction3-confirm-no",
       "correct": false,
-      "text": "The management tells you that they can purchase another stacker at the start of next quarter, ifthe budget allows it.",
+      "text": "scenario-stackedagainstus-reaction3-text",
       "scene": [{
         "image":  "images/conflict/stacker/call-mgmt.png"
       }, {
@@ -281,10 +281,10 @@
     }],
     "sequence": [{
       "type": "caption",
-      "text": "You notice that the outbound team is struggling to meet their targets for the day while the inbound team is relaxing and having a chat. You talk to a floor supervisor about it."
+      "text": "scenario-inboundoutbound-caption"
     }, {
       "type": "speech",
-      "text": "The inbound team regularly completes their targets for the day by 4 p.m. but do not move on to help the outbound team.",
+      "text": "scenario-inboundoutbound-speech1",
       "balloonArrowPos": 10,
       "scene": [{
         "image":  "images/conflict/inbound/floor-supervisor.png"
@@ -296,7 +296,7 @@
       }]
     }, {
       "type": "speech",
-      "text": "They say that they are paid wages and will only do the workload assigned to them in the morning.",
+      "text": "scenario-inboundoutbound-speech1",
       "balloonArrowPos": 10,
       "scene": [{
         "image":  "images/conflict/inbound/floor-supervisor.png"
@@ -307,27 +307,27 @@
         "pose": "front"
       }]
     }],
-    "description": "How should you manage this contentious situation?",
+    "description": "scenario-inboundoutbound-description",
     "options": [
-      "Move a few people from the inbound to the outbound team",
-      "Encourage teams to collaborate to meet business objectives",
-      "Recruit extra workers for the outbound team"
+      "scenario-inboundoutbound-option1",
+      "scenario-inboundoutbound-option2",
+      "scenario-inboundoutbound-option3"
     ],
     "reactions": [{
-      "confirmText": "Are you sure you want to permanently move some people from the inbound to the outbound team?",
-      "yesText": "this will solve the issue once and for all",
-      "noText": "I need to look for a more lasting solution",
+      "confirmText": "scenario-inboundoutbound-reaction1-confirm",
+      "yesText": "scenario-inboundoutbound-reaction1-confirm-yes",
+      "noText": "scenario-inboundoutbound-reaction1-confirm-no",
       "correct": false,
-      "text": "While moving a few people from one team to another will solve the issue for the time being, the situation is not likely to always remain the same. It’s more important to align each team’s goals       with the overall goals of the organisation so that whatever the conditions, the teams feel motivated to work out a way to achieve the organisational goals together.",
+      "text": "scenario-inboundoutbound-reaction1-text",
       "scene": [{
         "image":  "images/conflict/inbound/puzzle.png"
       }]
     }, {
-      "confirmText": "Are you sure you want to spend time motivating teams to collaborate instead of reorganising teams to achieve the productivity targets for the day?",
-      "yesText": "this will ensure that teams work towards common goals",
-      "noText": "I need to meet the day’s targets by hook or by crook",
+      "confirmText": "scenario-inboundoutbound-reaction2-confirm",
+      "yesText": "scenario-inboundoutbound-reaction2-confirm-yes",
+      "noText": "scenario-inboundoutbound-reaction2-confirm-no",
       "correct": true,
-      "text": "Devoting time to encourage teams to collaborate and reminding everyone what the common objectives are helps to create accountability.\nFocus on finding long-term solutions through such actions as motivating teams to achieve group goals instead of always chasing short-term goals.",
+      "text": "scenario-inboundoutbound-reaction2-text",
       "scene": [{
         "image":  "images/conflict/inbound/both-groups.png"
       }, {
@@ -337,11 +337,11 @@
         "flipped": true
       }]
     }, {
-      "confirmText": "Are you sure you want to spend time and resources on recruiting more workers?",
-      "yesText": "more people means more productivity",
-      "noText": "it will cost too much to train new people",
+      "confirmText": "scenario-inboundoutbound-reaction3-confirm",
+      "yesText": "scenario-inboundoutbound-reaction3-confirm-yes",
+      "noText": "scenario-inboundoutbound-reaction3-confirm-no",
       "correct": false,
-      "text": "Adding more resources to a team would sure help to increase productivity but it will also add to the labour costs. As a manager, you have to be mindful of the costs while working towards increased throughput.",
+      "text": "scenario-inboundoutbound-reaction3-text",
       "scene": [{
         "image":  "images/conflict/inbound/costs-up.png"
       }, {
@@ -567,180 +567,161 @@
         "value": "Stacked Against Us"
     },
     {
+        "key": "scenario-stackedagainstus-caption",
+        "value": "Two team leaders visit you in your office with a scheduling conflict for which they can’t work out an amiable solution. "
+    },
+    {
+        "key": "scenario-stackedagainstus-speech1",
+        "value": "Both our teams are scheduled to carry out an inventory accuracy check right now for two different customers. As you know, we only have one electric stacker in the warehouse, and both our teams need it to bring down products from heavy duty racks"
+    },
+    {
+        "key": "scenario-stackedagainstus-speech2",
+        "value": "We can’t reach a compromise; which team should get the electric stacker?"
+    },
+    {
+        "key": "scenario-stackedagainstus-description",
+        "value": "How should you manage this intergroup conflict?"
+    },
+    {
+        "key": "scenario-stackedagainstus-option1",
+        "value": "Analyse load and priority of customers and allocate stacker accordingly"
+    },
+    {
+        "key": "scenario-stackedagainstus-option2",
+        "value": "Motivate the team leaders to collaborate on finding the best solution"
+    },
+    {
+        "key": "scenario-stackedagainstus-option3",
+        "value": "Tell management you need to buy another stacker for the warehouse"
+    },
+    {
+      "key": "scenario-stackedagainstus-reaction1-confirm",
+      "value": "Are you sure you want to make this decision on behalf of both parties?"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-confirm-yes",
+        "value": "it would be the easiest way to resolve this conflict"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-confirm-no",
+        "value": "I want to inculcate decision-making skills in my staff"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-text",
+        "value": "You analysed the load and priority of both customer operations and made the decision to allocate the stacker towards checking the inventory of the customer that brings in greater revenue. \n The team leader in charge of the other account is not happy about your decision and, in the absence of an open discussion, thinks that you showed favouritism.\nMoreover, it does not give people the confidence that they are capable of handling issues on their own."
+    },
+    {
+      "key": "scenario-stackedagainstus-reaction2-confirm",
+      "value": "Are you sure you want to spend time on motivating the team leaders to arrive at a solution together? It would easier to make a decision yourself."
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-confirm-yes",
+        "value": "the team leaders should be able to collaborate on a solution"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-confirm-no",
+        "value": "that’s right, it would be easier to make a decision on my own"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-text",
+        "value": "Allowing members to work together in finding a resolution is a great approach. An open discussion that looks at the perspectives of both parties and identifies the conflict’s impacts on their separate operations leads to a greater understanding between colleagues.\nThis not only improves employee relationships but increases collaboration and efficiency as people learn to arrive at solutions together without always pushing the issues up the organisational chain."
+    },
+    {
+      "key": "scenario-stackedagainstus-reaction3-confirm",
+      "value": "Are you sure you want to purchase an additional stacker?"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-confirm-yes",
+        "value": "it would prevent this kind of problem from occurring ever again"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-confirm-no",
+        "value": "it would mean a huge expense for an infrequent scheduling issue"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-text",
+        "value": "The management tells you that they can purchase another stacker at the start of next quarter, if the budget allows it."
+    },
+
+    {
         "key": "scenario-inboundoutbound-header",
         "value": "Inbound/Outbound"
     },
     {
-        "key": "intro-description",
-        "value": "The red marks located in this warehouse will take you to different scenarios. When you click on a red marker, a situation will be described and you will have to answer a question. After answering the question you will receive an explanation as to what the correct answer is. Every time you answer a question correctly you will get a star."
+        "key": "scenario-inboundoutbound-caption",
+        "value": "You notice that the outbound team is struggling to meet their targets for the day while the inbound team is relaxing and having a chat. You talk to a floor supervisor about it."
     },
     {
-        "key": "intro-start",
-        "value": "Start"
+        "key": "scenario-inboundoutbound-speech1",
+        "value": "The inbound team regularly completes their targets for the day by 4 p.m. but do not move on to help the outbound team."
     },
     {
-        "key": "intro-stars-to-gain",
-        "value": "{0}/{1} earned"
+        "key": "scenario-inboundoutbound-speech2",
+        "value": "They say that they are paid wages and will only do the workload assigned to them in the morning."
     },
     {
-        "key": "button-next",
-        "value": "Next"
+        "key": "scenario-inboundoutbound-description",
+        "value": "How should you manage this contentious situation?"
     },
     {
-        "key": "button-prev",
-        "value": "Back"
+        "key": "scenario-inboundoutbound-option1",
+        "value": "Move a few people from the inbound to the outbound team"
     },
     {
-        "key": "button-check",
-        "value": "Check"
+        "key": "scenario-inboundoutbound-option2",
+        "value": "Encourage teams to collaborate to meet business objectives"
     },
     {
-        "key": "button-continue",
-        "value": "Continue"
+        "key": "scenario-inboundoutbound-option3",
+        "value": "Recruit extra workers for the outbound team"
     },
     {
-        "key": "reactions",
-        "value": "Options"
+      "key": "scenario-inboundoutbound-reaction1-confirm",
+      "value": "Are you sure you want to permanently move some people from the inbound to the outbound team?"
     },
     {
-        "key": "feedback-correct",
-        "value": "Correct!"
+        "key": "scenario-inboundoutbound-reaction1-confirm-yes",
+        "value": "this will solve the issue once and for all"
     },
     {
-        "key": "feedback-wrong",
-        "value": "Wrong!"
+        "key": "scenario-inboundoutbound-reaction1-confirm-no",
+        "value": "I need to look for a more lasting solution"
     },
     {
-        "key": "complete-header",
-        "value": "Congratulations"
+        "key": "scenario-inboundoutbound-reaction1-text",
+        "value": "While moving a few people from one team to another will solve the issue for the time being, the situation is not likely to always remain the same. It’s more important to align each team’s goals       with the overall goals of the organisation so that whatever the conditions, the teams feel motivated to work out a way to achieve the organisational goals together."
     },
     {
-        "key": "complete-score",
-        "value": "Total score {0}/{1}"
+      "key": "scenario-inboundoutbound-reaction2-confirm",
+      "value": "Are you sure you want to spend time motivating teams to collaborate instead of reorganising teams to achieve the productivity targets for the day?"
     },
     {
-        "key": "complete-try-again",
-        "value": "Again"
+        "key": "scenario-inboundoutbound-reaction2-confirm-yes",
+        "value": "this will ensure that teams work towards common goals"
     },
     {
-        "key": "complete-exit",
-        "value": "Exit"
+        "key": "scenario-inboundoutbound-reaction2-confirm-no",
+        "value": "I need to meet the day’s targets by hook or by crook"
     },
     {
-        "key": "feedback",
-        "value": "Feedback"
+        "key": "scenario-inboundoutbound-reaction2-text",
+        "value": "Devoting time to encourage teams to collaborate and reminding everyone what the common objectives are helps to create accountability.\nFocus on finding long-term solutions through such actions as motivating teams to achieve group goals instead of always chasing short-term goals."
     },
     {
-        "key": "description-together-cantina",
-        "value": "You are going to the canteen with your colleague. You are walking side by side on the left side of the path in this picture. Are you allowed to do this?"
+      "key": "scenario-inboundoutbound-reaction3-confirm",
+      "value": "Are you sure you want to spend time and resources on recruiting more workers?"
     },
     {
-        "key": "reaction-together-cantina-reaction1",
-        "value": "1. Yes, the path on the left is for pedestrians going to the canteen."
+        "key": "scenario-inboundoutbound-reaction3-confirm-yes",
+        "value": "more people means more productivity"
     },
     {
-        "key": "reaction-together-cantina-reaction2",
-        "value": "2. No, you have to walk on the right side of the path. Always stay on the right side as much as possible."
+        "key": "scenario-inboundoutbound-reaction3-confirm-no",
+        "value": "it will cost too much to train new people"
     },
     {
-        "key": "reaction-together-cantina-reaction3",
-        "value": "3. No, the path is too narrow to walk side by side."
-    },
-    {
-        "key": "reaction-together-cantina-reaction4",
-        "value": "4. No, you are not allowed to walk on this path. This entire path is for Automated Guided Vehicles (AGVs)."
-    },
-    {
-        "key": "feedback-together-cantina",
-        "value": "Designated walkways are important because they can prevent collisions between people and machines.\n\nAlways follow the designated routes and be aware of the potential dangers around you.\n\nIn this situation, there is a walking path on the left side leading to the canteen. But this path is not wide enough to walk shoulder to shoulder. So in this situation you have to walk one after the other on the left side of the path.\n\nAutomated Guided Vehicles (AGVs) are very quiet and carry heavy goods. So it is safer to walk in different lanes where possible."
-    },
-    {
-        "key": "description-agv-walk",
-        "value": "You have to go to the exit. Are you allowed to take the shortest route and walk on the different Automated guided Vehicle (AGV) paths (the red and black lines on the floor) to the exit?"
-    },
-    {
-        "key": "reaction-agv-walk-reaction1",
-        "value": "1. No, as a pedestrian you are not allowed to walk on AGV lines. In such a situation you always have to look for a clearly indicated walking route."
-    },
-    {
-        "key": "reaction-agv-walk-reaction2",
-        "value": "2. Yes, but you must wear work shoes and a safety helmet."
-    },
-    {
-        "key": "reaction-agv-walk-reaction3",
-        "value": "3. Yes, you can, as long as you watch out."
-    },
-    {
-        "key": "reaction-agv-walk-reaction4",
-        "value": "4. No, this is only allowed if you yourself are in a forklift and are therefore well protected."
-    },
-    {
-        "key": "feedback-agv-walk",
-        "value": "Walkways are important to avoid collisions and congestion. Unfortunately, clear walking routes are not always indicated or there may be places where different routes intersect. It is also not mandatory to have walking routes according to the VCA.\n\nIf there are no clear walking routes, you are usually allowed to walk or cross AGV paths.\n\nAsk your team leader directly about the rules regarding this at your workplace. This should be stated in your employer's safety plan or safety instructions.\n\nThe Working Conditions Act obliges the employer to inform you and to teach you how it works. According to the Working Conditions Act you are obliged to know those plans and instructions."
-    },
-    {
-        "key": "description-store-cargo",
-        "value": "The truck driver has left six pallets of big boxes on the dock.\n\nYour team leader asks you to put them in the right place with the pallet truck in the warehouse. You can see the related order form. You can also see more details about the pallet truck you can use. What you should do?"
-    },
-    {
-        "key": "reaction-store-cargo-reaction1",
-        "value": "1. You should take the pallet truck and put the pallets one by one at the right place."
-    },
-    {
-        "key": "reaction-store-cargo-reaction2",
-        "value": "2. You should tell your team leader that a pallet truck is not suitable for transporting these pallets."
-    },
-    {
-        "key": "reaction-store-cargo-reaction3",
-        "value": "3. You should ask your colleague to move the pallets with the forklift."
-    },
-    {
-        "key": "feedback-store-cargo",
-        "value": "The order form states that the weight of the pallets is 2750 kg. Your pallet truck states that it has a load capacity of 2500 kg.\n\nAll work equipment should be used only within specified limits. With this pallet truck you can move loads weighing 2500 kg or less.\n\nIt may be possible to move 2750 kg of pallets with this pallet truck, but it is not officially allowed as it can create a dangerous situation.\n\nTell your team leader that this pallet truck is not suitable because the pallets are too heavy. \n\nYou can probably move these pallets with a forklift but this dock may not allow forklifts to be used on it. So first inform your team leader that the pallet truck is not suitable for this job."
-    },
-    {
-        "key": "description-emergency-door",
-        "value": "This seems like a good place to pop out for a quick coffee. Is that allowed?"
-    },
-    {
-        "key": "reaction-emergency-door-reaction1",
-        "value": "1. Yep. An emergency door can even remain open so that you can easily enter back after your coffee."
-    },
-    {
-        "key": "reaction-emergency-door-reaction2",
-        "value": "2. Yes, but the emergency door must be closed properly as soon as possible and you can therefore no longer open it from the outside."
-    },
-    {
-        "key": "reaction-emergency-door-reaction3",
-        "value": "3. No, an emergency door is only for emergencies."
-    },
-    {
-        "key": "feedback-emergency-door",
-        "value": "An emergency door is indicated by the green icon below.\n\nAn emergency door may remain open from a safety point of view. ![](https://21cceducation.nl/content/games/images/image.php?image=flashcards/vca/veiligheidsvoorzieningen-uitgang-die-tevens-dient-als-nooduitgang.png)\n\nFire emergency doors have a fire resistant system and can usually be opened, but should not be left open because the system does not work if the door is left open. A fire door can be identified by the red sign at the bottom or it is written in letters on the door. ![](https://21cceducation.nl/content/games/images/image.php?image=vcaWarehouse/scenarios/emergency-door/branddeur.png) ![](https://21cceducation.nl/content/games/images/image.php?image=vcaWarehouse/scenarios/emergency-door/fire-sign-en.png)\n\nThere are situations when it is not desirable that you just use an emergency door or fire door. For example when there is an alarm on it."
-    },
-    {
-        "key": "description-forklift-hole",
-        "value": "A colleague drives past you on a forklift during work. You can see that he is driving diagonally towards a hole in the path. You call out to him just in time to stop and help him navigate the dangerous place. Together you call the supervisor and your colleague indicates that he cannot clearly see from his position on the forklift that there is a dangerous part in the path. Your supervisor asks you to put the correct markings around the hole, while he himself calls a company to have the path repaired.\n\nWhich mark should you put around the hole?"
-    },
-    {
-        "key": "reaction-forklift-hole-reaction1",
-        "value": "1. A yellow triangular sign with a black exclamation mark on it."
-    },
-    {
-        "key": "reaction-forklift-hole-reaction2",
-        "gigfgivalue": "2. A fence in front of and behind the hole."
-    },
-    {
-        "key": "reaction-forklift-hole-reaction3",
-        "value": "3. Red and white ribbon or tape."
-    },
-    {
-        "key": "reaction-forklift-hole-reaction4",
-        "value": "4. Yellow and black ribbon or tape."
-    },
-    {
-        "key": "feedback-forklift-hole",
-        "value": "Yellow and black ribbon or tape is used in situations where people may collide, for flanks and underpasses, and to mark dangerous areas.\n\nYou can use red and white ribbon or tape in other situations. You should never cross into an area that is surrounded by ribbons.\n\nIn itself, it is good to place a \"general danger\" sign. However, that alone is not enough."
+        "key": "scenario-inboundoutbound-reaction3-text",
+        "value": "Adding more resources to a team would sure help to increase productivity but it will also add to the labour costs. As a manager, you have to be mindful of the costs while working towards increased throughput."
     }
 ],
 "levelsCompleted": []
