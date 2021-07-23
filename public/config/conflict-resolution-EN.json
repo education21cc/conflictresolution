@@ -156,29 +156,29 @@
       "scenario-jayandmaya-option3"
     ],
     "reactions": [{
-      "confirmText": "Are you sure you want to avoid any confrontations?",
-      "yesText": "it would be too uncomfortable",
-      "noText": "I should address it somehow",
+      "confirmText": "scenario-jayandmaya-reaction1-confirm",
+      "yesText": "scenario-jayandmaya-reaction1-confirm-yes",
+      "noText": "scenario-jayandmaya-reaction1-confirm-no",
       "correct": false,
-      "text": "It’s not good to let conflicts fester in the workplace. \nIt may not affect their productivity, but it might affect the general environment at work and there’s a real chance that one or both individuals may engage in passive-aggressive behaviour.",
+      "text": "scenario-jayandmaya-reaction1-text",
       "scene": [{
         "image": "images/conflict/cantina/fester.png"
       }]
     }, {
-      "confirmText": "Are you sure you want to talk to only Maya?",
-      "yesText": "it was an accident and Maya shouldn’t have shouted at Jay",
-      "noText": "I should lead both Maya and Jay into an open discussion",
+      "confirmText": "scenario-jayandmaya-reaction2-confirm",
+      "yesText": "scenario-jayandmaya-reaction2-confirm-yes",
+      "noText": "scenario-jayandmaya-reaction2-confirm-no",
       "correct": false,
-      "text": "Research has shown that telling people not to take conflicts personally doesn’t work. \nRegardless of such a disclaimer, Maya is very likely to hold a grudge against Jay that will ultimately affect their working relationship.",
+      "text": "scenario-jayandmaya-reaction2-text",
       "scene": [{
         "image": "images/conflict/cantina/grudge.png"
       }]
     }, {
-      "confirmText": "Are you sure you want to spend time on discussing such a minor issue?",
-      "yesText": "if they don’t talk it out, they will act it out",
-      "noText": "why stir the pot further unnecessarily?",
+      "confirmText": "scenario-jayandmaya-reaction3-confirm",
+      "yesText": "scenario-jayandmaya-reaction3-confirm-yes",
+      "noText": "scenario-jayandmaya-reaction2-confirm-no",
       "correct": true,
-      "text": "The sooner you address an issue and allow employees to engage in a dialogue, the sooner they can go back to a healthy working relationship and remain productive and engaged. \nAsk both parties to share their perspectives and invite them to come up with ideas for a resolution that may include apologies or changes in behaviour (labelling food containers, in this case, for instance) to prevent similar disputes from recurring.",
+      "text": "scenario-jayandmaya-reaction3-text",
       "scene": [{
         "type": "avatar",
         "position": [924, 75],
@@ -512,6 +512,54 @@
     {
         "key": "scenario-jayandmaya-option3",
         "value": "Facilitate a discussion between the two to arrive at a resolution"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm",
+        "value": "Are you sure you want to avoid any confrontations?"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm-yes",
+        "value": "it would be too uncomfortable"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm-no",
+        "value": "I should address it somehow"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-text",
+        "value": "It’s not good to let conflicts fester in the workplace. \nIt may not affect their productivity, but it might affect the general environment at work and there’s a real chance that one or both individuals may engage in passive-aggressive behaviour."
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm",
+        "value": "Are you sure you want to talk to only Maya?"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm-yes",
+        "value": "it was an accident and Maya shouldn’t have shouted at Jay"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm-no",
+        "value": "I should lead both Maya and Jay into an open discussion"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-text",
+        "value": "Research has shown that telling people not to take conflicts personally doesn’t work. \nRegardless of such a disclaimer, Maya is very likely to hold a grudge against Jay that will ultimately affect their working relationship."
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm",
+        "value": "Are you sure you want to spend time on discussing such a minor issue?"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm-yes",
+        "value": "if they don’t talk it out, they will act it out"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm-no",
+        "value": "why stir the pot further unnecessarily?"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-text",
+        "value": "The sooner you address an issue and allow employees to engage in a dialogue, the sooner they can go back to a healthy working relationship and remain productive and engaged. \nAsk both parties to share their perspectives and invite them to come up with ideas for a resolution that may include apologies or changes in behaviour (labelling food containers, in this case, for instance) to prevent similar disputes from recurring.."
     },
 
     {
