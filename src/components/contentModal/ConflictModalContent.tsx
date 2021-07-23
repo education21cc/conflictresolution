@@ -11,6 +11,7 @@ const SPEED_MODIFIER = 1; // for debugging
 
 interface Props {
   content: ConflictContent;
+  translations: { [key: string]: string}
   avatar: string;
   setCorrectAnswer: (index: number) => void;
   selectedAnswer?: number; // When answer has been set correctly before

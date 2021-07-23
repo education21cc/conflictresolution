@@ -24,17 +24,19 @@ const IntroModal = (props: Props) => {
 
     const image = `${process.env.PUBLIC_URL}/images/avatars/${getAvatarImage(name)}.png`;
 
-    return <Sprite 
-      image={image} 
-      filters={filters} 
-      anchor={[0.5, 0.5]}
-      scale={[(flipped ? -scale : scale), scale]}
-      y={stageHeight / 2}
-      x={stageWidth / 5 + (index * (stageWidth / 5))}
-      zIndex={zIndex}
-      interactive
-      pointerdown={() => props.onChangeAvatar(name)}
-    />;
+    return (
+      <Sprite 
+        image={image} 
+        filters={filters} 
+        anchor={[0.5, 0.5]}
+        scale={[(flipped ? -scale : scale), scale]}
+        y={stageHeight / 2}
+        x={stageWidth / 5 + (index * (stageWidth / 5))}
+        zIndex={zIndex}
+        interactive
+        pointerdown={() => props.onChangeAvatar(name)}
+      />
+    );
   }
 
   return (

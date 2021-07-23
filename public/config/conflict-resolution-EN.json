@@ -5,8 +5,7 @@
   },
   "content": [{
     "position": [1381, 848],
-    "type": "conflict",
-    "header": "kumar-header",
+    "header": "scenario-kumar-header",
     "scene": [{
       "image":  "images/conflict/kumar/background.png"
     }, {
@@ -108,8 +107,7 @@
     }]
   }, {
     "position": [2135, 1039],
-    "type": "conflict",
-    "header": "Jay and Maya",
+    "header": "scenario-jayandmaya-header",
     "scene": [{
       "image":  "images/conflict/cantina/intro.png"
     }],
@@ -191,8 +189,7 @@
     }]
   }, {
     "position": [500, 500],
-    "type": "conflict",
-    "header": "Stacked Against Us",
+    "header": "scenario-stackedagainstus-header",
     "scene": [{
       "image":  "images/conflict/stacker/background.png"
       }, {
@@ -273,8 +270,7 @@
     }]
   }, {
     "position": [2318, 500],
-    "type": "conflict",
-    "header": "Inbound/Outbound",
+    "header": "scenario-inboundoutbound-header",
     "scene": [{
       "image":  "images/conflict/inbound/intro.png",
       "position": [100, 0]
@@ -373,8 +369,22 @@
       "value": "Start"
     },
     {
-        "key": "kumar-header",
+        "key": "scenario-kumar-header",
         "value": "The Trouble with Kumar"
+    },
+    
+    {
+        "key": "scenario-jayandmaya-header",
+        "value": "Jay and Maya"
+    },
+
+    {
+        "key": "scenario-stackedagainstus-header",
+        "value": "Stacked Against Us"
+    },
+    {
+        "key": "scenario-inboundoutbound-header",
+        "value": "Inbound/Outbound"
     },
     {
         "key": "intro-description",

@@ -6,12 +6,13 @@ import "./legenda.css";
 interface Props {
     avatar: string;
     content: ConflictContent[];
+    translations: { [key: string]: string}
     answers: number[];
     setSituationSelected: React.Dispatch<React.SetStateAction<number | null>>;
 }
 
 const Legenda = (props: Props) => {
-    const {content} = props;
+    const { content, translations } = props;
 
     const renderContent = (item: ConflictContent, index: number) => {
         const completed = props.answers[index] === undefined;
@@ -21,7 +22,7 @@ const Legenda = (props: Props) => {
         if (completed) {
             return (
                 <li className="" onClick={handleClick} key={item.header}>
-                    {item.header}
+                    {translations[item.header]}
                 </li>
             )
         }
@@ -29,7 +30,7 @@ const Legenda = (props: Props) => {
         return (
             <li className="completed" key={item.header}>
                 <CheckSvg className="check" />
-                {item.header}
+                {translations[item.header]}
             </li>
         )
     }

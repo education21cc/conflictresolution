@@ -76,7 +76,16 @@ function App() {
           onClose={() => {setIntro(false)}} 
           onChangeAvatar={setAvatar}/>
         )}
-      { !showCompleted && !intro && avatar && content && <Main content={content} avatar={avatar} answers={answers} setAnswers={setAnswers} setSituationOpen={setSituationOpen}/> }
+      { !showCompleted && !intro && avatar && content && (
+        <Main 
+          content={content} 
+          translations={translations}
+          avatar={avatar} 
+          answers={answers} 
+          setAnswers={setAnswers} 
+          setSituationOpen={setSituationOpen}
+        /> 
+      )}
       { showCompleted && avatar && (<CompleteModal avatar={avatar} restart={handleRestart}/>)}
     </>  
   )

@@ -23,6 +23,7 @@ gsap.registerPlugin(PixiPlugin);
 
 interface Props {
   content: ConflictContent[];
+  translations: { [key: string]: string}
   answers: number[];
   avatar: string;
   setAnswers: (value: number[]) => void;
@@ -30,7 +31,7 @@ interface Props {
 }
 
 const Main = (props: Props) => {
-  const { content, avatar, answers, setSituationOpen } = props;
+  const { content, translations, avatar, answers, setSituationOpen } = props;
   const viewportRef = useRef<PixiViewport>(null);
   const [selectedSituation, setSelectedSituation] = useState<number | null>(null);
 
@@ -139,10 +140,17 @@ const Main = (props: Props) => {
           </Sprite>
         </Viewport>
       </Stage>
-      <Legenda avatar={props.avatar} content={content} answers={answers} setSituationSelected={setSelectedSituation}/>
+      <Legenda 
+        avatar={props.avatar} 
+        translations={translations}
+        content={content} 
+        answers={answers} 
+        setSituationSelected={setSelectedSituation}
+      />
       { selectedContent && (
         <ContentModal 
-          content={selectedContent} 
+          content={selectedContent}
+          translations={translations}
           onClose={handleClose}
           avatar={avatar}
           setCorrectAnswer={handleCorrectAnswer}

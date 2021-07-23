@@ -7,6 +7,7 @@ import { ConflictContent } from '../../common/constants';
 
 interface Props {
   content: ConflictContent;
+  translations: { [key: string]: string}
   avatar: string;
   onClose: () => void;
   setCorrectAnswer: (answer: number) => void;
@@ -14,7 +15,7 @@ interface Props {
 }
 
 const ContentModal = (props: Props) => {
-  const { content, onClose, setCorrectAnswer, selectedAnswer, avatar } = props;
+  const { content, translations, onClose, setCorrectAnswer, selectedAnswer, avatar } = props;
 
   const handleClose = () => {
     onClose();
@@ -31,15 +32,16 @@ const ContentModal = (props: Props) => {
     >
       <>
         <div className="header">
-          <h1>{content.header} </h1>
+          <h1>{translations[content.header]} </h1>
           <div className="modal-close" onClick={() => handleClose()}></div>
         </div>
         <ConflictModalContent 
-            content={content}
-            setCorrectAnswer={setCorrectAnswer}
-            selectedAnswer={selectedAnswer}
-            avatar={avatar}
-          />
+          content={content}
+          translations={translations}
+          setCorrectAnswer={setCorrectAnswer}
+          selectedAnswer={selectedAnswer}
+          avatar={avatar}
+        />
       </>
     </ReactModal>  
   )
