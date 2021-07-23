@@ -71,10 +71,10 @@
     ],
     "reactions": [{
       "confirmText": "scenario-kumar-reaction1-confirm",
-      "yesText": "he’s hampering warehouse productivity",
-      "noText": "I’m a softie; I can’t fire anyone really",
+      "yesText": "scenario-kumar-reaction1-confirm-yes",
+      "noText": "scenario-kumar-reaction1-confirm-no",
       "correct": false,
-      "text": "You’ve fired Kumar without allowing him a chance to take responsibility. This has negatively affected the morale of the employees. \nWorkers feel that your response was disproportionate to Kumar’s offence and now feel discouraged and worried about their own job security.",
+      "text": "scenario-kumar-reaction1-text",
       "scene": [{
         "image":  "images/conflict/kumar/kumar-fired.png"
       }]
@@ -377,6 +377,14 @@
       "value": "No"
     },
     {
+      "key": "right-option",
+      "value": "You’ve chosen the right option!"
+    },
+    {
+      "key": "try-again-button",
+      "value": "try again"
+    },
+    {
         "key": "scenario-kumar-header",
         "value": "The Trouble with Kumar"
     },    
@@ -419,6 +427,18 @@
     {
         "key": "scenario-kumar-reaction1-confirm",
         "value": "Are you sure you want to terminate Kumar without giving him a chance to take responsibility?"
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm-yes",
+        "value": "he’s hampering warehouse productivity"
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm-no",
+        "value": "I’m a softie; I can’t fire anyone really"
+    },
+    {
+        "key": "scenario-kumar-reaction1-text",
+        "value": "You’ve fired Kumar without allowing him a chance to take responsibility. This has negatively affected the morale of the employees. \nWorkers feel that your response was disproportionate to Kumar’s offence and now feel discouraged and worried about their own job security."
     },
     {
         "key": "scenario-jayandmaya-header",

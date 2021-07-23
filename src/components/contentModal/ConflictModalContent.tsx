@@ -246,22 +246,22 @@ const ConflictModalContent = (props: Props) => {
           <p>{translations[reaction.confirmText]}</p>
           <p className="yesno">
             <button onClick={handleYes}>{translations["yes"]}</button>
-            <span className="motivation">{reaction.yesText}</span>
+            <span className="motivation">{translations[reaction.yesText]}</span>
           </p>
           <p className="yesno">
             <button onClick={handleNo}>{translations["no"]}</button>
-            <span className="motivation">{reaction.noText}</span>
+            <span className="motivation">{translations[reaction.noText]}</span>
           </p>
         </>
       )
     }
     return (
       <>
-        { reaction?.correct && (<p className="right-option">You’ve chosen the right option!</p>)}
-        {reaction.text.split("\n").map(p => <p key={p.substring(0, 10)}>{p}</p>)}
+        { reaction?.correct && (<p className="right-option">{translations["right-option"]}</p>)}
+        { translations[reaction.text].split("\n").map(p => <p key={p.substring(0, 10)}>{p}</p>)}
         { (!reaction?.correct) && (
          <button onClick={handleNo} className="button-replay">
-           try again
+           {translations["try-again-button"]}
          </button>
         )}     
       </>
