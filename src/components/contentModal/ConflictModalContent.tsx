@@ -317,7 +317,7 @@ const ConflictModalContent = (props: Props) => {
       { !selectedOption && (
         <div className="controls-bottomright">
           <button className="button-replay" onClick={handleReplay}>
-            replay
+            {translations["replay-button"]}
           </button>
           <button className="button-next" ref={nextButtonRef} onClick={handleSkipSequenceStep}>
             {">"}

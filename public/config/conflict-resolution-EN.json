@@ -385,6 +385,10 @@
       "value": "try again"
     },
     {
+      "key": "replay-button",
+      "value": "replay"
+    },
+    {
         "key": "scenario-kumar-header",
         "value": "The Trouble with Kumar"
     },    
