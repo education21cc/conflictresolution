@@ -92,11 +92,11 @@
         "pose": "angry"
       }]
     }, {
-      "confirmText": "Are you sure you want to give Kumar a second chance?",
-      "yesText": "it’s the only way I’ll be able to build trust in the team",
-      "noText": "he lacks discipline and won’t change his behaviour",
+      "confirmText": "scenario-kumar-reaction3-confirm",
+      "yesText": "scenario-kumar-reaction3-confirm-yes",
+      "noText": "scenario-kumar-reaction3-confirm-no",
       "correct": true,
-      "text": "You did the right thing by giving Kumar a chance to take responsibility and become more professional. You made him and—by extension—others in the team feel supported and laid the ground for cultivating a more trusting relationship with the employees.",
+      "text": "scenario-kumar-reaction3-text",
       "scene": [{
         "image":  "images/conflict/kumar/kumar-working.png"
       }, {
@@ -460,7 +460,23 @@
       "key": "scenario-kumar-reaction2-text",
       "value": "You gave Kumar a dressing down in front of others. He resents you now as he has become a laughing stock for a group of warehouse workers. \nHe wants to quit and his friends are not happy about how things panned out either."
     },
-
+    {
+      "key": "scenario-kumar-reaction3-confirm",
+      "value": "Are you sure you want to give Kumar a second chance?"
+    },
+    {
+      "key": "scenario-kumar-reaction3-confirm-yes",
+      "value": "it’s the only way I’ll be able to build trust in the team"
+    },
+    {
+      "key": "scenario-kumar-reaction3-confirm-no",
+      "value": "he lacks discipline and won’t change his behaviour"
+    },
+    {
+      "key": "scenario-kumar-reaction3-text",
+      "value": "You did the right thing by giving Kumar a chance to take responsibility and become more professional. You made him and—by extension—others in the team feel supported and laid the ground for cultivating a more trusting relationship with the employees."
+    },
+    
     {
         "key": "scenario-jayandmaya-header",
         "value": "Jay and Maya"
