@@ -79,11 +79,11 @@
         "image":  "images/conflict/kumar/kumar-fired.png"
       }]
     }, {
-      "confirmText": "Are you sure you want to embarrass Kumar like that?",
-      "yesText": "I want to discourage others from this kind of behaviour",
-      "noText": "perhaps that won’t let me cultivate a trusting relationship",
+      "confirmText": "scenario-kumar-reaction2-confirm",
+      "yesText": "scenario-kumar-reaction2-confirm-yes",
+      "noText": "scenario-kumar-reaction2-confirm-no",
       "correct": false,
-      "text": "You gave Kumar a dressing down in front of others. He resents you now as he has become a laughing stock for a group of warehouse workers. \nHe wants to quit and his friends are not happy about how things panned out either.",
+      "text": "scenario-kumar-reaction2-text",
       "scene": [{
         "image":  "images/conflict/kumar/kumar-humiliated.png"
       }, {
@@ -429,17 +429,38 @@
         "value": "Are you sure you want to terminate Kumar without giving him a chance to take responsibility?"
     },
     {
-        "key": "scenario-kumar-reaction1-confirm-yes",
-        "value": "he’s hampering warehouse productivity"
+      "key": "scenario-kumar-reaction1-confirm-yes",
+      "value": "he’s hampering warehouse productivity"
     },
     {
-        "key": "scenario-kumar-reaction1-confirm-no",
-        "value": "I’m a softie; I can’t fire anyone really"
+      "key": "scenario-kumar-reaction1-confirm-no",
+      "value": "I’m a softie; I can’t fire anyone really"
     },
     {
-        "key": "scenario-kumar-reaction1-text",
-        "value": "You’ve fired Kumar without allowing him a chance to take responsibility. This has negatively affected the morale of the employees. \nWorkers feel that your response was disproportionate to Kumar’s offence and now feel discouraged and worried about their own job security."
+      "key": "scenario-kumar-reaction1-text",
+      "value": "You’ve fired Kumar without allowing him a chance to take responsibility. This has negatively affected the morale of the employees. \nWorkers feel that your response was disproportionate to Kumar’s offence and now feel discouraged and worried about their own job security."
     },
+    {
+      "key": "scenario-kumar-reaction1-text",
+      "value": "You’ve fired Kumar without allowing him a chance to take responsibility. This has negatively affected the morale of the employees. \nWorkers feel that your response was disproportionate to Kumar’s offence and now feel discouraged and worried about their own job security."
+    },
+    {
+      "key": "scenario-kumar-reaction2-confirm",
+      "value": "Are you sure you want to embarrass Kumar like that?"
+    },
+    {
+      "key": "scenario-kumar-reaction2-confirm-yes",
+      "value": "I want to discourage others from this kind of behaviour"
+    },
+    {
+      "key": "scenario-kumar-reaction2-confirm-no",
+      "value": "perhaps that won’t let me cultivate a trusting relationship"
+    },
+    {
+      "key": "scenario-kumar-reaction2-text",
+      "value": "You gave Kumar a dressing down in front of others. He resents you now as he has become a laughing stock for a group of warehouse workers. \nHe wants to quit and his friends are not happy about how things panned out either."
+    },
+
     {
         "key": "scenario-jayandmaya-header",
         "value": "Jay and Maya"
