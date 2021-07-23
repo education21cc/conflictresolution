@@ -302,7 +302,7 @@ const ConflictModalContent = (props: Props) => {
         { props.content.scene && <SituationScene sceneConfig={sceneConfig} avatar={avatar}/>}
         <div className="inset" ref={insetRef} >
           <p>
-            {content.description}
+            {translations[content.description]}
           </p>
           <ul className="options">
             {content.options.map((option, index) => renderOption(option, index))}

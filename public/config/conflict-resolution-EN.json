@@ -63,7 +63,7 @@
         "flipped": true
       }]
     }],
-    "description": "You’ve already reprimanded Kumar in the past about his slack behaviour. What kind of disciplinary action should you take against him now?",
+    "description": "scenario-kumar-description",
     "options": [
       "Send Kumar a notification of termination",
       "Scold Kumar in front of his team mates",
@@ -391,6 +391,10 @@
     {
         "key": "scenario-kumar-speech4",
         "value": "I've asked him on four different occasions to help me, but he doesn't listen to me."
+    },
+    {
+        "key": "scenario-kumar-description",
+        "value": "You’ve already reprimanded Kumar in the past about his slack behaviour. What kind of disciplinary action should you take against him now?"
     },
     {
         "key": "scenario-jayandmaya-header",
