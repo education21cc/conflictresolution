@@ -45,9 +45,8 @@ function App() {
         // @ts-ignore
         
 
-        fetch(`${process.env.PUBLIC_URL}/config/conflict-resolution-EN.json`)
-        // fetch(`${process.env.PUBLIC_URL}/config/scenarios-2.json`)
-        // fetch(`${process.env.PUBLIC_URL}/config/scenarios-3.json`)
+        fetch(`${process.env.PUBLIC_URL}/config/conflict-resolution-NL.json`)
+        // fetch(`${process.env.PUBLIC_URL}/config/conflict-resolution-EN.json`)
         .then((response) => {
           response.json().then((data) => {
 
