@@ -5,6 +5,7 @@ import CompleteModal from './components/completeModal/completeModal';
 import PlayerBridge from './components/playerBridge';
 import { GameData } from './components/playerBridge/GameData';
 import { ConflictContent } from './common/constants';
+import Loading from './components/playerBridge/Loading';
 import './App.css';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
         return acc;
       }, {});
       setTranslations(t);
+      document.title = t["intro-header"];
     }
   }, []);
 
@@ -62,13 +64,15 @@ function App() {
   }, [answers, content]);
 
   const showCompleted = useMemo(() => completed && !situationIsOpen, [completed, situationIsOpen]);
-
-
+  const loading = !data;
 
   return (
     <>
       <PlayerBridge gameDataReceived={handleGameDataReceived}/>
-      { intro && (
+      {(loading) && (          
+        <Loading />
+      )}
+      { intro && !loading && (
         <IntroModal
           translations={translations}
           selectedAvatar={avatar} 
