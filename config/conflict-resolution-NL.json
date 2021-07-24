@@ -1,0 +1,729 @@
+{
+  "userId": 2,
+  "settings": {
+    "muted": false
+  },
+  "content": [{
+    "position": [1381, 848],
+    "header": "scenario-kumar-header",
+    "scene": [{
+      "image": "images/conflict/kumar/background.png"
+    }, {
+      "image":  "images/conflict/kumar/dev.png",
+      "position": [784, 175]
+    }, {
+      "type": "avatar",
+      "position": [1124, 155],
+      "pose": "angle",
+      "scale": 0.85,
+      "flipped": true
+    }],
+    "sequence": [{
+      "type": "caption",
+      "text": "scenario-kumar-caption"
+    }, {
+      "type": "speech",
+      "text": "scenario-kumar-speech1",
+      "balloonArrowPos": 33
+    }, {
+      "type": "speech",
+      "text": "scenario-kumar-speech2",
+      "scene": [{
+        "image":  "images/conflict/kumar/background.png"
+      }, {
+        "image":  "images/conflict/kumar/dev.png",
+        "position": [784, 175]
+      }, {
+        "image":  "images/conflict/kumar/kumar-playing.png",
+        "position": [112, 77]
+      }, {
+        "type": "avatar",
+        "image":  "images/conflict/kumar/dev.png",
+        "position": [1124, 155],
+        "pose": "angle",
+        "scale": 0.85,
+        "flipped": true
+      }]
+    }, {
+      "type": "speech",
+      "text": "scenario-kumar-speech3"
+    }, {
+      "type": "speech",
+      "text": "scenario-kumar-speech4",
+      "scene": [{
+        "image":  "images/conflict/kumar/background.png"
+      }, {
+        "image":  "images/conflict/kumar/dev-handsup.png",
+        "position": [758, 175]
+      }, {
+        "type": "avatar",
+        "position": [1124, 155],
+        "pose": "angle",
+        "scale": 0.85,
+        "flipped": true
+      }]
+    }],
+    "description": "scenario-kumar-description",
+    "options": [
+      "scenario-kumar-option1",
+      "scenario-kumar-option2",
+      "scenario-kumar-option3"
+    ],
+    "reactions": [{
+      "confirmText": "scenario-kumar-reaction1-confirm",
+      "yesText": "scenario-kumar-reaction1-confirm-yes",
+      "noText": "scenario-kumar-reaction1-confirm-no",
+      "correct": false,
+      "text": "scenario-kumar-reaction1-text",
+      "scene": [{
+        "image":  "images/conflict/kumar/kumar-fired.png"
+      }]
+    }, {
+      "confirmText": "scenario-kumar-reaction2-confirm",
+      "yesText": "scenario-kumar-reaction2-confirm-yes",
+      "noText": "scenario-kumar-reaction2-confirm-no",
+      "correct": false,
+      "text": "scenario-kumar-reaction2-text",
+      "scene": [{
+        "image":  "images/conflict/kumar/kumar-humiliated.png"
+      }, {
+        "type": "avatar",
+        "position": [824, 125],
+        "pose": "angry"
+      }]
+    }, {
+      "confirmText": "scenario-kumar-reaction3-confirm",
+      "yesText": "scenario-kumar-reaction3-confirm-yes",
+      "noText": "scenario-kumar-reaction3-confirm-no",
+      "correct": true,
+      "text": "scenario-kumar-reaction3-text",
+      "scene": [{
+        "image":  "images/conflict/kumar/kumar-working.png"
+      }, {
+        "type": "avatar",
+        "position": [824, 125],
+        "pose": "angle"
+      }]
+    }]
+  }, {
+    "position": [2135, 1039],
+    "header": "scenario-jayandmaya-header",
+    "scene": [{
+      "image":  "images/conflict/cantina/intro.png"
+    }],
+    "sequence": [{
+      "type": "caption",
+      "text": "scenario-jayandmaya-caption"
+    }, {
+      "type": "speech",
+      "text": "scenario-jayandmaya-speech1",
+      "balloonArrowPos": 27,
+      "scene": [{
+        "image":  "images/conflict/cantina/jay-stockroom.png"
+      }, {
+        "type": "avatar",
+        "position": [624, 155],
+        "pose": "handup"
+      }]
+    }, {
+      "type": "speech",
+      "text": "scenario-jayandmaya-speech2",
+      "balloonArrowPos": 20,
+      "scene": [{
+        "image":  "images/conflict/cantina/maya-sitting.png"
+      }, {
+        "type": "avatar",
+        "position": [424, 135],
+        "pose": "seatside"
+      }, {
+        "image":  "images/conflict/cantina/table.png",
+        "position": [228, 510]
+      }]
+    }, {
+      "type": "image",
+      "scene": [{
+        "type": "avatar",
+        "position": [969, 74],
+        "pose": "front"
+      }, {
+        "image": "images/conflict/cantina/jay-and-maya.png"
+      }]
+    }],
+    "description": "scenario-jayandmaya-description",
+    "options": [
+      "scenario-jayandmaya-option1",
+      "scenario-jayandmaya-option2",
+      "scenario-jayandmaya-option3"
+    ],
+    "reactions": [{
+      "confirmText": "scenario-jayandmaya-reaction1-confirm",
+      "yesText": "scenario-jayandmaya-reaction1-confirm-yes",
+      "noText": "scenario-jayandmaya-reaction1-confirm-no",
+      "correct": false,
+      "text": "scenario-jayandmaya-reaction1-text",
+      "scene": [{
+        "image": "images/conflict/cantina/fester.png"
+      }]
+    }, {
+      "confirmText": "scenario-jayandmaya-reaction2-confirm",
+      "yesText": "scenario-jayandmaya-reaction2-confirm-yes",
+      "noText": "scenario-jayandmaya-reaction2-confirm-no",
+      "correct": false,
+      "text": "scenario-jayandmaya-reaction2-text",
+      "scene": [{
+        "image": "images/conflict/cantina/grudge.png"
+      }]
+    }, {
+      "confirmText": "scenario-jayandmaya-reaction3-confirm",
+      "yesText": "scenario-jayandmaya-reaction3-confirm-yes",
+      "noText": "scenario-jayandmaya-reaction2-confirm-no",
+      "correct": true,
+      "text": "scenario-jayandmaya-reaction3-text",
+      "scene": [{
+        "type": "avatar",
+        "position": [924, 75],
+        "pose": "seatfront"
+      }, {
+        "image":  "images/conflict/cantina/handshake.png"
+      }]
+    }]
+  }, {
+    "position": [500, 500],
+    "header": "scenario-stackedagainstus-header",
+    "scene": [{
+      "image":  "images/conflict/stacker/background.png"
+      }, {
+      "type": "avatar",
+      "position": [824, 165],
+      "pose": "angle",
+      "scale": 0.85,
+      "flipped": true
+    }],
+    "sequence": [{
+      "type": "caption",
+      "text": "scenario-stackedagainstus-caption"
+    }, {
+      "type": "speech",
+      "text": "scenario-stackedagainstus-speech1",
+      "balloonArrowPos": 68
+    }, {
+      "type": "speech",
+      "text": "scenario-stackedagainstus-speech2"
+    }, {
+      "type": "image",
+      "scene": [{
+        "image":  "images/conflict/stacker/question.png"
+      }, {
+        "type": "avatar",
+        "position": [960, 95],
+        "scale": 0.85,
+        "pose": "stress"
+      }]
+    }],
+    "description": "scenario-stackedagainstus-description",
+    "options": [
+      "scenario-stackedagainstus-option1",
+      "scenario-stackedagainstus-option2",
+      "scenario-stackedagainstus-option3"
+    ],
+    "reactions": [{
+      "confirmText": "scenario-stackedagainstus-reaction1-confirm",
+      "yesText": "scenario-stackedagainstus-reaction1-confirm-yes",
+      "noText": "scenario-stackedagainstus-reaction1-confirm-no",
+      "correct": false,
+      "text": "scenario-stackedagainstus-reaction1-text",
+      "scene": [{
+        "image":  "images/conflict/stacker/question.png"
+      }, {
+        "type": "avatar",
+        "position": [960, 95],
+        "scale": 0.85,
+        "pose": "thinking"
+      }]
+    }, {
+      "confirmText": "scenario-stackedagainstus-reaction2-confirm",
+      "yesText": "scenario-stackedagainstus-reaction2-confirm-yes",
+      "noText": "scenario-stackedagainstus-reaction2-confirm-no",
+      "correct": true,
+      "text": "scenario-stackedagainstus-reaction2-text",
+      "scene": [{
+        "image":  "images/conflict/stacker/resolved.png"
+      }, {
+        "type": "avatar",
+        "position": [1060, 65],
+        "pose": "happy",
+        "flipped": true
+      }]
+    }, {
+      "confirmText": "scenario-stackedagainstus-reaction3-confirm",
+      "yesText": "scenario-stackedagainstus-reaction3-confirm-yes",
+      "noText": "scenario-stackedagainstus-reaction3-confirm-no",
+      "correct": false,
+      "text": "scenario-stackedagainstus-reaction3-text",
+      "scene": [{
+        "image":  "images/conflict/stacker/call-mgmt.png"
+      }, {
+        "type": "avatar",
+        "position": [1060, 65],
+        "pose": "call"
+      }]
+    }]
+  }, {
+    "position": [2318, 500],
+    "header": "scenario-inboundoutbound-header",
+    "scene": [{
+      "image":  "images/conflict/inbound/intro.png",
+      "position": [100, 0]
+    }, {
+      "type": "avatar",
+      "position": [564, 326],
+      "pose": "back"
+    }],
+    "sequence": [{
+      "type": "caption",
+      "text": "scenario-inboundoutbound-caption"
+    }, {
+      "type": "speech",
+      "text": "scenario-inboundoutbound-speech1",
+      "balloonArrowPos": 10,
+      "scene": [{
+        "image":  "images/conflict/inbound/floor-supervisor.png"
+      }, {
+        "type": "avatar",
+        "position": [870, 125],
+        "scale": 0.85,
+        "pose": "bothhandsup"
+      }]
+    }, {
+      "type": "speech",
+      "text": "scenario-inboundoutbound-speech1",
+      "balloonArrowPos": 10,
+      "scene": [{
+        "image":  "images/conflict/inbound/floor-supervisor.png"
+      }, {
+        "type": "avatar",
+        "position": [870, 145],
+        "scale": 0.85,
+        "pose": "front"
+      }]
+    }],
+    "description": "scenario-inboundoutbound-description",
+    "options": [
+      "scenario-inboundoutbound-option1",
+      "scenario-inboundoutbound-option2",
+      "scenario-inboundoutbound-option3"
+    ],
+    "reactions": [{
+      "confirmText": "scenario-inboundoutbound-reaction1-confirm",
+      "yesText": "scenario-inboundoutbound-reaction1-confirm-yes",
+      "noText": "scenario-inboundoutbound-reaction1-confirm-no",
+      "correct": false,
+      "text": "scenario-inboundoutbound-reaction1-text",
+      "scene": [{
+        "image":  "images/conflict/inbound/puzzle.png"
+      }]
+    }, {
+      "confirmText": "scenario-inboundoutbound-reaction2-confirm",
+      "yesText": "scenario-inboundoutbound-reaction2-confirm-yes",
+      "noText": "scenario-inboundoutbound-reaction2-confirm-no",
+      "correct": true,
+      "text": "scenario-inboundoutbound-reaction2-text",
+      "scene": [{
+        "image":  "images/conflict/inbound/both-groups.png"
+      }, {
+        "type": "avatar",
+        "position": [950, 295],
+        "pose": "backhandup",
+        "flipped": true
+      }]
+    }, {
+      "confirmText": "scenario-inboundoutbound-reaction3-confirm",
+      "yesText": "scenario-inboundoutbound-reaction3-confirm-yes",
+      "noText": "scenario-inboundoutbound-reaction3-confirm-no",
+      "correct": false,
+      "text": "scenario-inboundoutbound-reaction3-text",
+      "scene": [{
+        "image":  "images/conflict/inbound/costs-up.png"
+      }, {
+        "type": "avatar",
+        "position": [860, 65],
+        "pose": "stress"
+      }]
+    }]
+  }],
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "Frictie en strijd"
+    },
+    {
+        "key": "intro-subtext",
+        "value": "Onenigheid en spanningen kunnen soms hoog oplopen in het warehouse. Als manager moet je vaak de rol van bemiddelaar spelen om conflicten te helpen oplossen en mensen naar gemeenschappelijke doelen te laten werken. Kijk of je de conflicten die je hier in het warehouse opduiken kunt oplossen."
+    },
+    {
+        "key": "intro-choose-avatar",
+        "value": "Kies een avatar en start het spel"
+    },
+    {
+        "key": "intro-start",
+        "value": "Start"
+    },
+    {
+        "key": "yes",
+        "value": "Ja"
+    },
+    {
+        "key": "no",
+        "value": "Nee"
+    },
+    {
+        "key": "right-option",
+        "value": "Je hebt de goede optie gekozen!"
+    },
+    {
+        "key": "try-again-button",
+        "value": "Probeer nog eens"
+    },
+    {
+        "key": "replay-button",
+        "value": "Opnieuw"
+    },
+    {
+        "key": "complete-header",
+        "value": "Het spel is afgerond"
+    },
+    {
+        "key": "complete-congrats",
+        "value": "Gefeliciteerd, jouw warehouse is nu conflictvrij!"
+    },
+    {
+        "key": "scenario-kumar-header",
+        "value": "Problemen met Paul"
+    },
+    {
+        "key": "scenario-kumar-caption",
+        "value": "Terwijl je 's ochtends een rondje door het magazijn maakt, benadert Johan je met een klacht tegen zijn teamgenoot, Paul"
+    },
+    {
+        "key": "scenario-kumar-speech1",
+        "value": "Paul en ik staan ingeroosterd voor dezelfde shift."
+    },
+    {
+        "key": "scenario-kumar-speech2",
+        "value": "Hij speelt regelmatig spelletjes op zijn mobiel terwijl ik de orders pick."
+    },
+    {
+        "key": "scenario-kumar-speech3",
+        "value": "Ik heb al het werk te doen terwijl hij aan het spelen is."
+    },
+    {
+        "key": "scenario-kumar-speech4",
+        "value": "Ik heb hem al 4 keer gevraagd om me te helpen, maar hij luistert niet naar mij."
+    },
+    {
+        "key": "scenario-kumar-description",
+        "value": "Je hebt Paul in het verleden al toegesproken over zijn lakse gedrag. Op welke manier zou je hem nu moeten benaderen?"
+    },
+    {
+        "key": "scenario-kumar-option1",
+        "value": "Laat Paul weten dat hij is ontslagen."
+    },
+    {
+        "key": "scenario-kumar-option2",
+        "value": "Vertel Paul in het bijzijn van zijn teamgenoten waar het op staat."
+    },
+    {
+        "key": "scenario-kumar-option3",
+        "value": "Laat Paul heel precies weten welke productiviteit je van hem verwacht."
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm",
+        "value": "Weet je zeker dat je Paul wil ontslaan zonder hem een kans te geven om zijn verantwoordelijkheid te nemen?"
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm-yes",
+        "value": "hij belemmert de productiviteit"
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm-no",
+        "value": "ik ben een softie en kan iemand niet zo maar ontslaan"
+    },
+    {
+        "key": "scenario-kumar-reaction1-text",
+        "value": "Je hebt Paul ontslagen zonder hem de kans te geven verantwoordelijkheid te nemen. Dit heeft een negatieve invloed op het moreel van de werknemers. \\nWerknemers vinden dat uw reactie niet in verhouding staat tot Kumars overtreding en voelen zich nu ontmoedigd en bezorgd over hun eigen baan."
+    },
+    {
+        "key": "scenario-kumar-reaction2-confirm",
+        "value": "Weet je zeker dat je Paul zo in verlegenheid wil brengen?"
+    },
+    {
+        "key": "scenario-kumar-reaction2-confirm-yes",
+        "value": "Ik wil anderen ontmoedigen om dit gedrag te vertonen."
+    },
+    {
+        "key": "scenario-kumar-reaction2-confirm-no",
+        "value": "misschien helpt dat niet om een goede vertrouwensband op te bouwen."
+    },
+    {
+        "key": "scenario-kumar-reaction2-text",
+        "value": "Je gaf Paul een standje in het bijzijn van anderen. Hij heeft nu een hekel aan je omdat hij een lachertje is geworden voor een groep medewerkers. \\nHij wil stoppen en zijn vrienden zijn ook niet blij met hoe het is gelopen."
+    },
+    {
+        "key": "scenario-kumar-reaction3-confirm",
+        "value": "Weet je zeker dat je Paul een 2e kans wil geven?"
+    },
+    {
+        "key": "scenario-kumar-reaction3-confirm-yes",
+        "value": "het is de enige manier om vertrouwen in het team op te bouwen"
+    },
+    {
+        "key": "scenario-kumar-reaction3-confirm-no",
+        "value": "hij heeft geen discipline en zal zijn gedrag niet veranderen"
+    },
+    {
+        "key": "scenario-kumar-reaction3-text",
+        "value": "Je hebt het juiste gedaan door Paul de kans te geven verantwoordelijkheid te nemen en zich professioneler te gedragen. Je zorgde ervoor dat hij en anderen zich in het team gesteund voelen en legt de basis voor het opbouwen van een vertrouwensrelatie met de medewerkers."
+    },
+    {
+        "key": "scenario-jayandmaya-header",
+        "value": "Jay en Maya"
+    },
+    {
+        "key": "scenario-jayandmaya-caption",
+        "value": "Je zit te eten in de kantine als je wat roddels hoort over Maya die gisteren tegen Jay heeft geschreeuwd. Je spreekt Jay en Maya apart en vraagt ​​wat er is gebeurd."
+    },
+    {
+        "key": "scenario-jayandmaya-speech1",
+        "value": "Ik ruim de gedeelde koelkast regelmatig op en gooide gisteren per ongeluk Maya's restjes weg. Zij viel keihard uit tegen mij! Niemand waardeert de moeite die ik doe om deze plek schoon te houden."
+    },
+    {
+        "key": "scenario-jayandmaya-speech2",
+        "value": "Ik had wat eten in de koelkast achtergelaten en ontdekte dat het weg was! Wat gaf Jay het recht om het weg te gooien? Mensen moeten de persoonlijke bezittingen van anderen respecteren."
+    },
+    {
+        "key": "scenario-jayandmaya-description",
+        "value": "Jay en Maya spreken niet meer tegen elkaar. Hoe zou jij deze situatie aanpakken?"
+    },
+    {
+        "key": "scenario-jayandmaya-option1",
+        "value": "Ik zou een confrontatie vermijden zoland het hun productiviteit niet raakt."
+    },
+    {
+        "key": "scenario-jayandmaya-option2",
+        "value": "Ik ga me Maya praten en vertel haar dat ze de actie van Jay niet persoonlijk moet opnemen."
+    },
+    {
+        "key": "scenario-jayandmaya-option3",
+        "value": "Ik faciliteer een gesprek tussen de twee om samen tot een oplossing te komen."
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm",
+        "value": "Weet je zeker dat je een confrontatie wil vermijden?"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm-yes",
+        "value": "het zou te ongemakkelijk voelen"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm-no",
+        "value": "ik moet het op een manier bespreekbaar maken"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-text",
+        "value": "Het is niet goed om conflicten op de werkvloer te laten etteren. \\nHet heeft misschien geen invloed op hun productiviteit, maar het kan van invloed zijn op de anderen en er is een reële kans dat één of beide personen passief-agressief gedrag gaan vertonen."
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm",
+        "value": "Ben je zeker dat je alleen met Maya wil praten?"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm-yes",
+        "value": "het was een ongeluk en Maya had niet tegen Jay mogen schreeuwen"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm-no",
+        "value": "Ik zou Maya en Jay een open discussie met elkaar moeten laten hebben"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-text",
+        "value": "Onderzoek heeft aangetoond dat het niet werkt om mensen te vertellen dat ze conflicten niet persoonlijk moeten opvatten. \\nOngeacht een dergelijke disclaimer, is het zeer waarschijnlijk dat Maya het wel persoonlijk opvat en een wrok koestert tegen Jay. Grote kans dat dit uiteindelijk hun werkrelatie zal beïnvloeden."
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm",
+        "value": "Ben je zeker dat je tijd wil besteden om zo'n klein ding te bespreken?"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm-yes",
+        "value": "als ze het niet uitspreken, zullen ze ernaar gaan handelen"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm-no",
+        "value": "waarom het onnodig aandacht geven?"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-text",
+        "value": "Hoe eerder u een probleem aanpakt en medewerkers in staat stelt een dialoog aan te gaan, hoe eerder ze terug kunnen keren naar een gezonde werkrelatie en productief en betrokken kunnen blijven. \\nVraag beide partijen om hun perspectieven te delen en nodig hen uit om met ideeën te komen voor een oplossing. Dit kunnen excuses zijn of een gedachtsverandering (bijvoorbeeld het etiketteren van voedselcontainers) om te voorkomen dat soortgelijke ruzies zich herhalen."
+    },
+    {
+        "key": "scenario-stackedagainstus-header",
+        "value": "Opgestapelde problemen"
+    },
+    {
+        "key": "scenario-stackedagainstus-caption",
+        "value": "2 teamleiders komen naar je toe met een planningsconflict, waarvoor ze geen oplossing kunnen vinden."
+    },
+    {
+        "key": "scenario-stackedagainstus-speech1",
+        "value": "Onze beide teams staan op dit moment ingepland om een voorraadnauwkeurigheidscontrole uit te voeren voor twee verschillende klanten. Zoals u weet, hebben we slechts één elektrische stapelaar in het magazijn en onze beide teams hebben deze nodig om zware producten uit de rekken te halen"
+    },
+    {
+        "key": "scenario-stackedagainstus-speech2",
+        "value": "Jullie kunnen geen compromis sluiten welk team de stapelaar mag gebruiken?"
+    },
+    {
+        "key": "scenario-stackedagainstus-description",
+        "value": "Hoe zou je dit groepsconflict managen?"
+    },
+    {
+        "key": "scenario-stackedagainstus-option1",
+        "value": "Analyseer de lading en de prioriteit van de klanten en wijs de stapelaar toe aan de betreffende groep"
+    },
+    {
+        "key": "scenario-stackedagainstus-option2",
+        "value": "Motiveer de teamleiders om samen te werken en de beste oplossing te vinden."
+    },
+    {
+        "key": "scenario-stackedagainstus-option3",
+        "value": "Vertel het management dat je een nieuwe stapelaar wil kopen"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-confirm",
+        "value": "Ben je er zeker van dat je deze beslissing namens beide groepen wil nemen?"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-confirm-yes",
+        "value": "het is de makkelijkste manier om het conflict op te lossen"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-confirm-no",
+        "value": "I wil rekening houden met de besluitvaardigheid van mijn mensen"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-text",
+        "value": "Je analyseerde de belasting en prioriteit van beide klantactiviteiten en nam de beslissing om de stapelaar toe te wijzen aan het controleren van de voorraad van de klant die de meeste inkomsten oplevert. \\n De teamleider die verantwoordelijk is voor het andere account is niet blij met je beslissing en, bij gebrek aan een open discussie, denkt dat je vriendjespolitiek hebt getoond.\\nBovendien geeft het mensen niet het vertrouwen dat ze in staat zijn om problemen zelfstandig op te lossen ."
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-confirm",
+        "value": "Weet je zeker dat je tijd wilt besteden aan het motiveren van de teamleiders om samen tot een oplossing te komen? Het zou makkelijker zijn om zelf een beslissing te nemen."
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-confirm-yes",
+        "value": "de teamleiders zouden in staat moeten zijn om tot een oplossing te komen"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-confirm-no",
+        "value": "dat is waar, het zou makkelijker zijn om zelf een beslissing te nemen"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-text",
+        "value": "Leden laten samenwerken bij het vinden van een oplossing is een geweldige aanpak. Een open discussie die kijkt naar de perspectieven van beide partijen en de impact van het conflict op hun afzonderlijke operaties, leidt tot meer begrip tussen collega's.\\nDit verbetert niet alleen de werkrelaties, maar verhoogt ook de samenwerking en efficiëntie. Omdat mensen leren samen tot oplossingen te komen en niet altijd de vraagstukken hoger in de organisatie te leggen."
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-confirm",
+        "value": "Ben je zeker dat je een extra stapelaar wil aanschaffen?"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-confirm-yes",
+        "value": "het zou zo'n probleem in de toekomst voorkomen"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-confirm-no",
+        "value": "het zou een enorme uitgave betekenen voor een probleem dat niet vaak voorkomt."
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-text",
+        "value": "Het management vertelt je dat ze een nieuwe stapelaar kunnen aanschaffen aan het begin van het volgende kwartaal, als het budget het toestaat."
+    },
+    {
+        "key": "scenario-inboundoutbound-header",
+        "value": "Inbound/outbound "
+    },
+    {
+        "key": "scenario-inboundoutbound-caption",
+        "value": "Je merkt dat het outbound team moeite heeft om hun doelen voor de dag te halen terwijl het Inbound team aan het relaxen is en een praatje met elkaar maakt. Je praat erover met een supervisor."
+    },
+    {
+        "key": "scenario-inboundoutbound-speech1",
+        "value": "Het Inbound team voltooit regelmatig hun doelen voor 16.00 uur. maar werkt niet door om het outbound team te helpen."
+    },
+    {
+        "key": "scenario-inboundoutbound-speech2",
+        "value": "Ze zeggen dat ze loon krijgen voor het werk dat hen is toegewezen."
+    },
+    {
+        "key": "scenario-inboundoutbound-description",
+        "value": "Hoe zou je deze situatie oplossen?"
+    },
+    {
+        "key": "scenario-inboundoutbound-option1",
+        "value": "Verplaats een paar mensen van het Inbound naar het outbound team"
+    },
+    {
+        "key": "scenario-inboundoutbound-option2",
+        "value": "Moedig teams aan om samen te werken om zakelijke doelstellingen te behalen"
+    },
+    {
+        "key": "scenario-inboundoutbound-option3",
+        "value": "Werf extra mensen voor het outbound team"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction1-confirm",
+        "value": "Weet u zeker dat u een aantal mensen permanent van het inbound naar het outbound team wilt verplaatsen?"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction1-confirm-yes",
+        "value": "dit lost het probleem voor altijd op"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction1-confirm-no",
+        "value": "Ik moet een langere termijn oplossing bedenken"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction1-text",
+        "value": "Hoewel het verplaatsen van een paar mensen van het ene team naar het andere het probleem voorlopig zal oplossen, zal de situatie waarschijnlijk niet altijd hetzelfde blijven. Het is belangrijker om de doelen van elk team af te stemmen op de algemene doelen van de organisatie, zodat de teams, ongeacht de omstandigheden, gemotiveerd zijn om samen een manier te vinden om de organisatiedoelen te bereiken."
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction2-confirm",
+        "value": "Weet u zeker dat u tijd wilt besteden aan het motiveren van teams om samen te werken in plaats van teams te reorganiseren om de productiviteitsdoelen voor die dag te behalen?"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction2-confirm-yes",
+        "value": "dit zal er zeker voor zorgen dat teams samenwerken aan de gezamenlijke doelstellingen"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction2-confirm-no",
+        "value": "hoe dan ook, ik  moet de doelen van de dag halen"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction2-text",
+        "value": "Tijd besteden aan het aanmoedigen van teams om samen te werken en iedereen eraan herinneren wat de gemeenschappelijke doelstellingen zijn, helpt om verantwoordelijkheid te creëren.\\nFocus op het vinden van langetermijn oplossingen door bijvoorbeeld teams te motiveren om groepsdoelen te bereiken in plaats van alleen kortetermijn doelen na te jagen."
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction3-confirm",
+        "value": "Weet je zeker dat je tijd en geld wil besteden aan het recruiten van nieuwe medewerkers?"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction3-confirm-yes",
+        "value": "meer mensen betekent meer productiviteit"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction3-confirm-no",
+        "value": "het kost teveel om nieuwe mensen te trainen"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction3-text",
+        "value": "Het toevoegen van meer mensen aan een team zou zeker helpen om de productiviteit te verbeteren, maar het zal ook de arbeidskosten verhogen. Als manager moet u zich bewust zijn van de kosten en tegelijkertijd werken aan een hogere productiviteit.."
+    }
+],
+"levelsCompleted": []
+}
