@@ -141,6 +141,7 @@
   padding: 1.125em 1.5em;
   box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
   margin: 8px;
+  z-index: 3;
 
   animation: pop 0.5s ease-out .5s;
   transform: scale(0);
@@ -167,6 +168,7 @@
   position: absolute;
   right: 33%;
   margin-top: -2px;
+  z-index: 4;
 }
 
 

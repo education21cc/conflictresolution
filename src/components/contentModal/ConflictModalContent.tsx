@@ -298,6 +298,10 @@ const ConflictModalContent = (props: Props) => {
 
   return (
     <div className="modal-content modal-conflict" ref={ref}>
+        <div className={`balloon`} ref={balloonRef}>
+          <span ref={balloonTextRef}></span>
+        </div>
+        <div className="balloon-arrow" ref={balloonArrowRef} style={{visibility: 'hidden'}}/>
       <div className="situation" onClick={handleSkipSequenceStep}>
         { props.content.scene && <SituationScene sceneConfig={sceneConfig} avatar={avatar}/>}
         <div className="inset" ref={insetRef} >
@@ -309,10 +313,6 @@ const ConflictModalContent = (props: Props) => {
           </ul>
           { renderReaction() }
         </div> 
-        <div className={`balloon`} ref={balloonRef}>
-          <span ref={balloonTextRef}></span>
-        </div>
-        <div className="balloon-arrow" ref={balloonArrowRef} style={{visibility: 'hidden'}}/>
       </div>
       { !selectedOption && (
         <div className="controls-bottomright">
