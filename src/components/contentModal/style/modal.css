@@ -19,8 +19,8 @@
   border-radius: 16px;
   padding: 16px;
   background: white;
-  max-width: 1280px;
-  max-height: 720px;
+  max-height: calc(100vh - 48px);
+  /* max-height: 720px; */
 
   animation: pop 0.5s ease-in-out 1, fadein .2s linear; 
   position: relative;
@@ -34,8 +34,8 @@
   grid-column: span 16;
   grid-row: span 9;
   width: 100%;
-  max-width: 1280px;
-  max-height: 720px;
+  /* max-width: 1280px; */
+  /* max-height: 720px; */
   height: 100%;
   position: relative;
 }

@@ -93,7 +93,8 @@
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  margin-top: 48px;
+  margin-top: 32px;
+  max-height: calc(100vh - 74px);
 }
 
 .modal .modal-content.modal-conflict .situation .right-option {
@@ -107,9 +108,10 @@
   background: rgba(255, 255, 255, 0.9);
   padding-right: 16px;
   padding-left: 16px;
-  /* padding-top: 32px; */
+  /* padding-bottom: 32px; */
   height: 100%;
   box-sizing: border-box;
+  overflow: scroll;
 }
 
 .modal .modal-content.modal-conflict .inset .yesno {
@@ -131,6 +133,7 @@
 
 .modal .modal-content.modal-conflict .scene {
   max-height: 100%;
+  width: 100%;
   /* margin-top: -32px; */
 }
   
@@ -186,8 +189,8 @@
 }
 
 .modal .modal-content.modal-conflict .controls-bottomright {
-  position: absolute;
-  right: 8px;
+  position: fixed;
+  right: 32px;
   bottom: 16px;
 }
 
