@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactModal from 'react-modal';
 import { Stage, Sprite } from '@inlet/react-pixi';
+import { send } from '../playerBridge';
 import './completeModal.css';
 
 interface Props {
   avatar: string;
+  score: number;
   translations: { [key: string]: string}
   restart: () => void;
 }
@@ -13,7 +15,25 @@ const stageHeight = 720;
 const stageWidth = 1280;
 
 const CompleteModal = (props: Props) => {
-  const { translations } = props;
+  const { translations, score } = props;
+
+  useEffect(() => {
+
+    const level = 1;
+    const maxScore = 0;
+    // @ts-ignore
+    const newData: GameData = { ...window.GAMEDATA};
+    // fck it we just have only one level anwyay
+    newData.levelsCompleted = [
+        { level, score, maxScore }
+    ]
+    console.log(newData);
+    send({
+        type: 'setGameData',
+        data: newData
+    });
+  }, [score]);
+
   return (
     <ReactModal
       isOpen={true}

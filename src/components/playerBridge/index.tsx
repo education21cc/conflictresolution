@@ -10,20 +10,6 @@ interface Props {
 const PlayerBridge = (props: Props) => {   
     const {gameDataReceived} = props;
 
-    const send = (payload: any) => {
-        // @ts-ignore
-        if (window.hasOwnProperty("webkit") && window.webkit.hasOwnProperty("messageHandlers")){
-            var stringifiedMessageObj = JSON.stringify(payload);
-            // Send to In App Browser context
-            // @ts-ignore
-            webkit.messageHandlers.cordova_iab.postMessage(stringifiedMessageObj);
-        }
-        else {
-            // @ts-ignore
-            window.parent.postMessage(payload, '*');
-        }
-    }
-
     const exit = () => {       
         send({
             type: 'exit'
@@ -77,3 +63,18 @@ const PlayerBridge = (props: Props) => {
 }
 
 export default PlayerBridge;
+
+
+export const send = (payload: any) => {
+    // @ts-ignore
+    if (window.hasOwnProperty("webkit") && window.webkit.hasOwnProperty("messageHandlers")){
+        var stringifiedMessageObj = JSON.stringify(payload);
+        // Send to In App Browser context
+        // @ts-ignore
+        webkit.messageHandlers.cordova_iab.postMessage(stringifiedMessageObj);
+    }
+    else {
+        // @ts-ignore
+        window.parent.postMessage(payload, '*');
+    }
+}

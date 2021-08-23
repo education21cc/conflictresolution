@@ -95,6 +95,7 @@ function App() {
         <CompleteModal
           avatar={avatar} 
           restart={handleRestart}
+          score={answers.length}
           translations={translations}
         />)}
     </>  
