@@ -25,9 +25,9 @@ const IntroModal = (props: Props) => {
     const image = `${process.env.PUBLIC_URL}/images/avatars/${getAvatarImage(name)}.png`;
 
     return (
-      <Sprite 
-        image={image} 
-        filters={filters} 
+      <Sprite
+        image={image}
+        filters={filters}
         anchor={[0.5, 0.5]}
         scale={[(flipped ? -scale : scale), scale]}
         y={stageHeight / 2}
@@ -53,8 +53,8 @@ const IntroModal = (props: Props) => {
 
         <div className="avatar-selection">
           <Stage width={stageWidth} height={stageHeight} options={{ backgroundColor: 0xffffff}}>
-            <Sprite image={`${process.env.PUBLIC_URL}/images/avatars/background.png`} 
-              scale={1} 
+            <Sprite image={`${process.env.PUBLIC_URL}/images/avatars/background.png`}
+              scale={1}
               anchor={.5}
               y={stageHeight / 2}
               x={stageWidth / 2}
@@ -70,10 +70,10 @@ const IntroModal = (props: Props) => {
             <p className="subtext">
               {translations["intro-subtext"]}
             <br/>
-             {translations["intro-choose-avatar"]}
+             <strong>{translations["intro-choose-avatar"]}</strong>
             </p>
-            <button 
-              onClick={props.onClose} 
+            <button
+              onClick={props.onClose}
               disabled={props.selectedAvatar === undefined}
             >
               {translations["intro-start"]}
@@ -81,7 +81,7 @@ const IntroModal = (props: Props) => {
           </div>
         </div>
       </div>
-    </ReactModal>  
+    </ReactModal>
     )
 }
 
