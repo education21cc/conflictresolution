@@ -351,6 +351,379 @@
       }]
     }]
   }],
-  
-"levelsCompleted": []
+  "translations": [
+    {
+        "key": "intro-header",
+        "value": "纷争与纷扰"
+    },
+    {
+        "key": "intro-subtext",
+        "value": "今天仓库中的不和谐和紧张局势尤其严重。 作为经理，您必须扮演调解人的角色，以解决冲突并使人员朝着共同目标努力。 来看看您是否可以解决整个仓库中出现的冲突。"
+    },
+    {
+        "key": "intro-choose-avatar",
+        "value": "选择一个图标以开始游戏。"
+    },
+    {
+        "key": "intro-start",
+        "value": "开始"
+    },
+    {
+        "key": "yes",
+        "value": "是的"
+    },
+    {
+        "key": "no",
+        "value": "不是的"
+    },
+    {
+        "key": "right-option",
+        "value": "您选择了正确的选项！"
+    },
+    {
+        "key": "try-again-button",
+        "value": "再试一次"
+    },
+    {
+        "key": "replay-button",
+        "value": "重播"
+    },
+    {
+        "key": "complete-header",
+        "value": "游戏完毕！"
+    },
+    {
+        "key": "complete-congrats",
+        "value": "恭喜，您的仓库现已成为无冲突区！"
+    },
+    {
+        "key": "scenario-kumar-header",
+        "value": "库马尔的麻烦"
+    },
+    {
+        "key": "scenario-kumar-caption",
+        "value": "当您早上在仓库里巡视时，德菲来找您投诉他的队友库马尔。"
+    },
+    {
+        "key": "scenario-kumar-speech1",
+        "value": "库马尔和我被安排在同一个仓库轮班。"
+    },
+    {
+        "key": "scenario-kumar-speech2",
+        "value": "当我拣选订单时，他经常用手机玩电游。"
+    },
+    {
+        "key": "scenario-kumar-speech3",
+        "value": "他玩的时候我必须做大部分工作。"
+    },
+    {
+        "key": "scenario-kumar-speech4",
+        "value": "我曾四次请求他帮助我，但他不听我的。"
+    },
+    {
+        "key": "scenario-kumar-description",
+        "value": "您过去已经就库马尔的懈怠行为进行了训斥。 您现在应该对他采取什么样的纪律处分？"
+    },
+    {
+        "key": "scenario-kumar-option1",
+        "value": "向库马尔发送终止通知"
+    },
+    {
+        "key": "scenario-kumar-option2",
+        "value": "在队友面前骂库马尔"
+    },
+    {
+        "key": "scenario-kumar-option3",
+        "value": "为库马尔设定严格的生产力目标"
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm",
+        "value": "您确定要在不给他一个承担责任的机会的情况下就终止库马尔吗？"
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm-yes",
+        "value": "他正在阻碍仓库生产力"
+    },
+    {
+        "key": "scenario-kumar-reaction1-confirm-no",
+        "value": "我是个软弱的人我真的不能解雇任何人"
+    },
+    {
+        "key": "scenario-kumar-reaction1-text",
+        "value": "您在没有给库马尔承担责任的机会的情况下解雇了他。 这对员工的士气产生了负面影响。  \\n工人们觉得您的反应与库马尔的冒犯不成比例，现在感到气馁和担心自己的工作保障。"
+    },
+    {
+        "key": "scenario-kumar-reaction2-confirm",
+        "value": "您确定要这样让库马尔难堪吗？"
+    },
+    {
+        "key": "scenario-kumar-reaction2-confirm-yes",
+        "value": "我想劝告其他人杜绝有这种行为"
+    },
+    {
+        "key": "scenario-kumar-reaction2-confirm-no",
+        "value": "也许那不会让我建立任何信任关系"
+    },
+    {
+        "key": "scenario-kumar-reaction2-text",
+        "value": "您在别人面前给了库马尔一个打扮。 他现在很反感您，因为他已经成为一群仓库工人的笑柄。  \\n他想退出，而他的朋友们也对事情的发展不满意。"
+    },
+    {
+        "key": "scenario-kumar-reaction3-confirm",
+        "value": "您确定要给库马尔第二次机会吗？"
+    },
+    {
+        "key": "scenario-kumar-reaction3-confirm-yes",
+        "value": "这是我能够在团队中建立信任的唯一方法"
+    },
+    {
+        "key": "scenario-kumar-reaction3-confirm-no",
+        "value": "他缺乏纪律也不会改变其行为的"
+    },
+    {
+        "key": "scenario-kumar-reaction3-text",
+        "value": "您让库马尔有机会承担责任并变得更专业，这是正确的事情。 您让他和团队中的其他人感到受到支持，并为与员工建立更信任的关系奠定了基础。"
+    },
+    {
+        "key": "scenario-jayandmaya-header",
+        "value": "杰和玛雅"
+    },
+    {
+        "key": "scenario-jayandmaya-caption",
+        "value": "当您听到一些关于玛雅前一天对杰大喊大叫的八卦时，您正在休息室用餐。 您分别召见杰和玛雅，问他们发生了什么事。"
+    },
+    {
+        "key": "scenario-jayandmaya-speech1",
+        "value": "我定期清理共用冰箱，昨天不小心扔掉了玛雅的剩菜。 她因此而对我大发雷霆！ 没有人珍惜我为保持这个地方清洁所做的努力。"
+    },
+    {
+        "key": "scenario-jayandmaya-speech2",
+        "value": "我在冰箱里留下了一些食物，发现它不见了！ 是什么给了杰丢弃它的权利？ 大家都应该尊重他人的私人物品……"
+    },
+    {
+        "key": "scenario-jayandmaya-description",
+        "value": "杰伊和玛雅彼互不理睬。 您应该如何处理这种情况？"
+    },
+    {
+        "key": "scenario-jayandmaya-option1",
+        "value": "避免对抗，只要不影响他们的工作效率"
+    },
+    {
+        "key": "scenario-jayandmaya-option2",
+        "value": "与玛雅交谈并告诉她不要对杰的行为耿耿于怀"
+    },
+    {
+        "key": "scenario-jayandmaya-option3",
+        "value": "促进两者之间的讨论以达成解决方案"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm",
+        "value": "您确定要避免任何冲突吗？"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm-yes",
+        "value": "会觉太不舒服"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-confirm-no",
+        "value": "我应该以某种方式解决它"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction1-text",
+        "value": "让冲突在工作场所恶化是不好的。  \\n这可能不会影响他们的工作效率，但可能会影响工作中的整体环境，而且单方或双方都很可能会变得产生消极攻击行为。"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm",
+        "value": "您确定只想与玛雅交谈吗？"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm-yes",
+        "value": "这是一场意外，玛雅不应该对杰大声苛责"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-confirm-no",
+        "value": "我应该带领 Maya 和 Jay 进行公开讨论"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction2-text",
+        "value": "研究表明，告诉人们不要把冲突放在心上是行不通的。  \\n不管这样的免责声明与否，玛雅很可能对杰怀有怨恨，最终会影响到他们的工作关系。"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm",
+        "value": "您确定要花时间讨论这样一个小问题吗？"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm-yes",
+        "value": "如果他们不说出来，他们就会付诸行动"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-confirm-no",
+        "value": "为什么不必要地参乱？"
+    },
+    {
+        "key": "scenario-jayandmaya-reaction3-text",
+        "value": "您越早解决问题并允许员工参与对话，他们就能越早恢复健康的工作关系并保持生产力和敬业度。  \\n请双方分享他们的观点，并邀请他们提出解决方案的想法，其中可能包括道歉或改变行为（例如，在这种情况下为食品容器贴标签），以防止类似的纠纷再次发生。"
+    },
+    {
+        "key": "scenario-stackedagainstus-header",
+        "value": "堆高形式对我们不利"
+    },
+    {
+        "key": "scenario-stackedagainstus-caption",
+        "value": "两位团队领导因日程安排冲突到您的办公室拜访您，但他们无法找到友好的解决方案。"
+    },
+    {
+        "key": "scenario-stackedagainstus-speech1",
+        "value": "我们的两个团队都计划立即为两个不同的客户进行库存准确性检查。 如您所知，我们仓库中只有一台电动堆高机，我们的两个团队都需要它来从重型货架上取下产品"
+    },
+    {
+        "key": "scenario-stackedagainstus-speech2",
+        "value": "我们无法达成妥协，哪个团队应该得到电动堆高机？"
+    },
+    {
+        "key": "scenario-stackedagainstus-description",
+        "value": "您应该如何处理这种群体间的冲突？"
+    },
+    {
+        "key": "scenario-stackedagainstus-option1",
+        "value": "分析客户的负载和优先级，并相应地分配堆垛机"
+    },
+    {
+        "key": "scenario-stackedagainstus-option2",
+        "value": "激励团队领导合作寻找最佳解决方案"
+    },
+    {
+        "key": "scenario-stackedagainstus-option3",
+        "value": "告诉管理层您需要为仓库购买另一个堆垛机"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-confirm",
+        "value": "您确定要双方代表做出此决定吗？"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-confirm-yes",
+        "value": "这将是解决此冲突的最简单方法"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-confirm-no",
+        "value": "我想向我的员工灌输决策技能"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction1-text",
+        "value": "您分析了客户运营的负载和优先级，并决定分配堆垛机以检查客户的库存，从而增加收入。  \\n 负责另一个账号的团队领导对您的决定不满意，在没有公开讨论的情况下，认为您表现出偏袒。\\n而且，这不会让人相信他们有能力处理自己的问题。"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-confirm",
+        "value": "您确定要花时间激励团队领导共同达成解决方案吗？ 自己做决定会更容易。"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-confirm-yes",
+        "value": "团队负责人应该能够就解决方案进行协作"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-confirm-no",
+        "value": "没错，自己做决定会更容易"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction2-text",
+        "value": "允许成员共同努力寻找解决方案是一种很好的方法。 公开讨论从双方的角度来看并确定冲突对各自运营的影响，从而加深同事之间的理解。\\n这不仅改善了员工关系，而且提高了协作和效率，因为人们学会了共同达成解决方案，而不是总是将问题推给组织链。"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-confirm",
+        "value": "您确定要购买额外的堆垛机吗？"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-confirm-yes",
+        "value": "这样可以避免此类问题再次发生"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-confirm-no",
+        "value": "对于这样不频繁发生的调度问题，这将意味着巨大的费用消耗"
+    },
+    {
+        "key": "scenario-stackedagainstus-reaction3-text",
+        "value": "管理层告诉您，如果预算允许，他们可以在下个季度初购买另一台堆垛机。"
+    },
+    {
+        "key": "scenario-inboundoutbound-header",
+        "value": "入库/出库"
+    },
+    {
+        "key": "scenario-inboundoutbound-caption",
+        "value": "您注意到出库团队正在努力实现当天的目标，而入库团队正在放松和聊天。 您找楼层主管谈谈这件事。"
+    },
+    {
+        "key": "scenario-inboundoutbound-speech1",
+        "value": "入库团队定期在下午 4 点前完成当天的目标。 但不要继续帮助出库团队。"
+    },
+    {
+        "key": "scenario-inboundoutbound-speech2",
+        "value": "他们说他们有工资，并且只会在早上完成分配给他们的工作量。"
+    },
+    {
+        "key": "scenario-inboundoutbound-description",
+        "value": "您应该如何处理这种有争议的情况？"
+    },
+    {
+        "key": "scenario-inboundoutbound-option1",
+        "value": "将几个人从入库转移到出库团队"
+    },
+    {
+        "key": "scenario-inboundoutbound-option2",
+        "value": "鼓励团队们协作以实现业务目标"
+    },
+    {
+        "key": "scenario-inboundoutbound-option3",
+        "value": "为出库团队招聘额外的工人"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction1-confirm",
+        "value": "您确定要将一些人员从入库团队永久移至出库团队吗？"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction1-confirm-yes",
+        "value": "这将一劳永逸地解决问题"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction1-confirm-no",
+        "value": "我需要寻找更持久的解决方案"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction1-text",
+        "value": "虽然暂时将几个人从一个团队转移到另一个团队可以解决问题，但情况不太可能总是保持不变。 更重要的是将团队们的目标与组织的总体目标保持一致，这样无论情况如何，团队们都会有动力共同制定实现组织目标的方法。"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction2-confirm",
+        "value": "您确定要花时间激励团队协作而不是重组团队以实现当天的生产力目标吗？"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction2-confirm-yes",
+        "value": "这将确保团队朝着共同的目标努力"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction2-confirm-no",
+        "value": "我需要想方设法达到当天的目标"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction2-text",
+        "value": "花时间鼓励团队协作并提醒每个人的共同目标是什么有助于建立责任感。\\n专注于通过诸如激励团队们实现团队目标之类的行动来寻找长期解决方案，而不是总是追求短期目标。"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction3-confirm",
+        "value": "您确定要花费时间和资源来招聘更多员工吗？"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction3-confirm-yes",
+        "value": "更多的人意味着更高的生产力"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction3-confirm-no",
+        "value": "培训新人的成本太高"
+    },
+    {
+        "key": "scenario-inboundoutbound-reaction3-text",
+        "value": "为团队增加更多资源肯定有助于提高生产力，但也会增加劳动力成本。 作为经理，您必须在努力提高吞吐量的同时注意成本。"
+    }
+  ],
+  "levelsCompleted": []
 }
