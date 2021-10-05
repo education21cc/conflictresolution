@@ -352,378 +352,378 @@
     }]
   }],
   "translations": [
-    {
-        "key": "intro-header",
-        "value": "Pergaduhan dan Pertengkaraan"
-    },
-    {
-        "key": "intro-subtext",
-        "value": "Perselisihan dan ketegangan sangat tinggi di gudang sekarang.  Sebagai pengurus, anda harus memainkan peranan sebagai orang tengah untuk menyelesaikan konflik dan mendorong personel berusaha mencapai tujuan bersama.  Lihat apakah anda dapat menyelesaikan konflik yang timbul di sekitar gudang."
-    },
-    {
-        "key": "intro-choose-avatar",
-        "value": "Pilih satu ikon untuk mula bermain."
-    },
-    {
-        "key": "intro-start",
-        "value": "Mulakan"
-    },
-    {
-        "key": "yes",
-        "value": "Ya"
-    },
-    {
-        "key": "no",
-        "value": "Tidak"
-    },
-    {
-        "key": "right-option",
-        "value": "Anda telah memilih pilihan yang tepat!"
-    },
-    {
-        "key": "try-again-button",
-        "value": "Cuba lagi"
-    },
-    {
-        "key": "replay-button",
-        "value": "Main semula"
-    },
-    {
-        "key": "complete-header",
-        "value": "Permainan selesai!"
-    },
-    {
-        "key": "complete-congrats",
-        "value": "Tahniah, gudang anda kini menjadi zon bebas konflik!"
-    },
-    {
-        "key": "scenario-kumar-header",
-        "value": "Masalah dengan Kumar"
-    },
-    {
-        "key": "scenario-kumar-caption",
-        "value": "Semasa anda meronda di gudang pada waktu pagi, Dev mendekati anda dengan keluhan terhadap rakan sepasukannya, Kumar."
-    },
-    {
-        "key": "scenario-kumar-speech1",
-        "value": "Kumar dan saya dijadualkan dalam syif gudang yang sama."
-    },
-    {
-        "key": "scenario-kumar-speech2",
-        "value": "Dia kerap bermain permainan di dalam telefon bimbitnya semasa saya mengambil pesanan."
-    },
-    {
-        "key": "scenario-kumar-speech3",
-        "value": "Saya terpaksa melakukan kebanyakan kerja semasa dia bermain."
-    },
-    {
-        "key": "scenario-kumar-speech4",
-        "value": "Saya pernah meminta dia sebanyak beberapa kali untuk membantu saya, tetapi dia tidak dengar. "
-    },
-    {
-        "key": "scenario-kumar-description",
-        "value": "Anda pernah menegur Kumar pada masa lalu tentang kelakuannya yang kendur.  Apa jenis tindakan tatatertib yang harus anda lakukan terhadapnya sekarang?"
-    },
-    {
-        "key": "scenario-kumar-option1",
-        "value": "Kirimkan Kumar pemberitahuan penamatan kerjanya."
-    },
-    {
-        "key": "scenario-kumar-option2",
-        "value": "Memarahi Kumar di depan rakan sepasukannya"
-    },
-    {
-        "key": "scenario-kumar-option3",
-        "value": "Tetapkan sasaran produktiviti yang ketat untuk Kumar"
-    },
-    {
-        "key": "scenario-kumar-reaction1-confirm",
-        "value": "Adakah anda pasti mahu memberhentikan Kumar tanpa memberinya peluang untuk bertanggungjawab?"
-    },
-    {
-        "key": "scenario-kumar-reaction1-confirm-yes",
-        "value": "Dia menghalang produktiviti gudang"
-    },
-    {
-        "key": "scenario-kumar-reaction1-confirm-no",
-        "value": "Saya seorang pelembut, saya tidak dapat memecat sesiapa pun"
-    },
-    {
-        "key": "scenario-kumar-reaction1-text",
-        "value": "Anda telah memecat Kumar tanpa membiarkannya berpeluang untuk bertanggungjawab.  Ini memberi kesan negatif terhadap moral pekerja.  \\ nPekerja merasakan bahawa tindak balas anda tidak sebanding dengan kesalahan Kumar dan kini merasa kecewa dan bimbang akan kejaminan pekerjaan mereka sendiri."
-    },
-    {
-        "key": "scenario-kumar-reaction2-confirm",
-        "value": "Adakah anda pasti mahu memalukan Kumar seperti itu?"
-    },
-    {
-        "key": "scenario-kumar-reaction2-confirm-yes",
-        "value": "Saya mahu mengelakkan orang lain untuk membuat tingkah laku seperti ini"
-    },
-    {
-        "key": "scenario-kumar-reaction2-confirm-no",
-        "value": "Mungkin itu tidak akan membiarkan saya menjalin hubungan yang saling percaya"
-    },
-    {
-        "key": "scenario-kumar-reaction2-text",
-        "value": "Anda tukar pakaian Kumar di hadapan orang lain.  Dia membencikan anda sekarang kerana dia telah menjadi bahan ketawa kumpulan pekerja gudang.  \\ nDia mahu berhenti dan rakan-rakannya juga tidak senang dengan berlakunya peristiwa tersebut."
-    },
-    {
-        "key": "scenario-kumar-reaction3-confirm",
-        "value": "Adakah anda pasti mahu memberi Kumar peluang kedua?"
-    },
-    {
-        "key": "scenario-kumar-reaction3-confirm-yes",
-        "value": "Ini satu-satunya cara saya dapat membina kepercayaan dalam pasukan"
-    },
-    {
-        "key": "scenario-kumar-reaction3-confirm-no",
-        "value": "Dia kurang disiplin dan tidak akan mengubah tingkah lakunya"
-    },
-    {
-        "key": "scenario-kumar-reaction3-text",
-        "value": "Anda melakukan perkara yang betul dengan memberi peluang kepada Kumar untuk memikul tanggungjawab dan menjadi lebih profesional.  Anda menjadikan dia dan — secara ekstensif — anggota yang lain dalam pasukan berasa disokong dan terdapat dasar untuk menjalin hubungan yang lebih percaya dengan pekerja."
-    },
-    {
-        "key": "scenario-jayandmaya-header",
-        "value": "Jay and Maya"
-    },
-    {
-        "key": "scenario-jayandmaya-caption",
-        "value": "Anda sedang makan di ruang rehat apabila anda mendengar gosip tentang Maya menjerit pada Jay sehari sebelumnya.  Anda berjumpa dengan Jay dan Maya secara berasingan dan bertanya kepada mereka apa yang telah berlaku."
-    },
-    {
-        "key": "scenario-jayandmaya-speech1",
-        "value": "Saya membersihkan peti sejuk bersama dengan kerap dan secara tidak sengajanya membuang sisa makanan Maya semalam.  Dia benar-benar naik darah dangan saya kerana itu!  Tiada siapa pun yang menghargai usaha yang saya lakukan untuk menjaga kebersihan tempat ini."
-    },
-    {
-        "key": "scenario-jayandmaya-speech2",
-        "value": "Saya telah meninggalkan beberapa bungkus makanan di dalam peti sejuk dan mendapati semuanya hilang!  Apa yang memberi hak kepada Jay untuk membuangnya?  Semua orang haruslah menghormati barang peribadi orang lain ..."
-    },
-    {
-        "key": "scenario-jayandmaya-description",
-        "value": "Jay dan Maya tidak bercakap antara satu sama lain.  Bagaimana anda harus menangani keadaan ini?"
-    },
-    {
-        "key": "scenario-jayandmaya-option1",
-        "value": "Elakkan konfrontasi selagi tidak mempengaruhi produktiviti mereka"
-    },
-    {
-        "key": "scenario-jayandmaya-option2",
-        "value": "Bercakap dengan Maya dan beritahu dia untuk tidak mengambil ambil hati terhadap tindakan Jay "
-    },
-    {
-        "key": "scenario-jayandmaya-option3",
-        "value": "Memudahkan perbincangan antara keduanya untuk mencapai penyelesaian"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction1-confirm",
-        "value": "Adakah anda pasti mahu mengelakkan sebarang konfrontasi?"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction1-confirm-yes",
-        "value": "Ia akan muncul perasaan tidak selesa"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction1-confirm-no",
-        "value": "Saya harus mengatasinya dengan sesuatu penyelesaian"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction1-text",
-        "value": "Tidak baik membiarkan konflik meletus di tempat kerja.  \\ nIa tidak dapat mempengaruhi produktiviti mereka, tetapi mungkin mempengaruhi seluruh persekitaran di tempat kerja dan ada kemungkinan sebenarnya salah satu atau kedua-dua individu tersebut terlibat dalam tingkah laku pasif-agresif."
-    },
-    {
-        "key": "scenario-jayandmaya-reaction2-confirm",
-        "value": "Adakah anda pasti mahu bercakap dengan Maya sahaja?"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction2-confirm-yes",
-        "value": "Itu adalah tidak sengaja dan Maya tidak seharusnya berjerit terhadap Jay"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction2-confirm-no",
-        "value": "Saya harus membawa Maya dan Jay ke perbincangan terbuka"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction2-text",
-        "value": "Penyelidikan menunjukkan bahawa memberitahu orang untuk tidak ambil hati apabioa berlakunya konflik secara biasanya tidak akan berjaya.  \\ n Terlepas dari penafian seperti itu, Maya kemungkinan besar akan menyimpan dendam terhadap Jay dan akhirnya akan mempengaruhi hubungan kerja mereka."
-    },
-    {
-        "key": "scenario-jayandmaya-reaction3-confirm",
-        "value": "Adakah anda pasti mahu meluangkan masa untuk membincangkan isu kecil seperti ini?"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction3-confirm-yes",
-        "value": "Sekiranya mereka tidak membincangkannya, mereka akan melakukan sesuatu"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction3-confirm-no",
-        "value": "Mengapa menghasut lagi sedangkan tidak perlu?"
-    },
-    {
-        "key": "scenario-jayandmaya-reaction3-text",
-        "value": "Semakin cepat anda mengatasi masalah dan membolehkan pekerja terlibat dalam dialog bersama, semakin cepat mereka dapat kembali ke hubungan kerja yang sihat dan tetap produktif dan terlibat.  \\ n Minta kedua-dua pihak untuk berkongsi perspektif mereka dan jemput mereka untuk mengemukakan idea untuk penyelesaian yang mungkin merangkumi permintaan maaf atau perubahan tingkah laku (misalnya, melabelkan bekas makanan, dalam kes ini) untuk mengelakkan pertikaian serupa berulang."
-    },
-    {
-        "key": "scenario-stackedagainstus-header",
-        "value": "Ditimbun Terhadap Kami"
-    },
-    {
-        "key": "scenario-stackedagainstus-caption",
-        "value": "Dua ketua pasukan berjumpa anda di pejabat anda dengan konflik penjadualan yang mana mereka tidak dapat menyelesaikan penyelesaian yang baik."
-    },
-    {
-        "key": "scenario-stackedagainstus-speech1",
-        "value": "Kedua-dua pasukan kami dijadualkan untuk melakukan pemeriksaan ketepatan inventori sekarang untuk dua pelanggan yang berbeza.  Seperti yang anda ketahui, kami hanya mempunyai satu penumpuk elektrik di gudang, dan kedua pasukan kami memerlukannya untuk menurunkan produk dari rak tugas berat"
-    },
-    {
-        "key": "scenario-stackedagainstus-speech2",
-        "value": "Kami tidak dapat mencapai kompromi pasukan mana yang harus mendapatkan penumpuk elektrik?"
-    },
-    {
-        "key": "scenario-stackedagainstus-description",
-        "value": "Bagaimana anda harus menguruskan konflik antara kumpulan ini?"
-    },
-    {
-        "key": "scenario-stackedagainstus-option1",
-        "value": "Analisis beban dan keutamaan pelanggan dan peruntukkan penumpuk dengan sewajarnya"
-    },
-    {
-        "key": "scenario-stackedagainstus-option2",
-        "value": "Memotivasikan ketua pasukan untuk bekerjasama dalam mencari penyelesaian terbaik"
-    },
-    {
-        "key": "scenario-stackedagainstus-option3",
-        "value": "Beritahu pihak pengurusan bahawa anda perlu membeli stacker lain untuk gudang"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction1-confirm",
-        "value": "Adakah anda pasti mahu membuat keputusan ini bagi pihak kedua pihak?"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction1-confirm-yes",
-        "value": "Ini akan menjadi cara termudah untuk menyelesaikan konflik ini"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction1-confirm-no",
-        "value": "Saya ingin memupuk kemahiran membuat keputusan dalam kakitangan saya"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction1-text",
-        "value": "Anda menganalisis beban dan keutamaan operasi pelanggan dan membuat keputusan untuk memperuntukkan penumpuk untuk memeriksa inventori pelanggan yang menghasilkan pendapatan yang lebih besar.  \\ n Ketua pasukan yang bertanggungjawab ke atas akaun lain tidak senang hati dengan keputusan anda dan, terdapat perbincangan terbuka yang berpendapat bahawa anda menunjukkan sikap pilih kasih. \\ n Selain itu, ini tidak memberi keyakinan kepada orang lain bahawa mereka mampu menangani masalah sendiri."
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction2-confirm",
-        "value": "Adakah anda pasti mahu meluangkan masa untuk memotivasi ketua pasukan untuk mencari penyelesaian bersama?  Lebih mudah untuk membuat keputusan sendiri."
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction2-confirm-yes",
-        "value": "Pemimpin pasukan harus dapat bekerjasama dalam penyelesaian"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction2-confirm-no",
-        "value": "Betul, lebih senang membuat keputusan sendiri"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction2-text",
-        "value": "Membolehkan ahli bekerjasama dalam mencari penyelesaian adalah pendekatan yang bagus.  Perbincangan terbuka yang memandang dari perspektif kedua-dua pihak dan mengenal pasti kesan konflik terhadap operasi mereka yang berasingan membawa kepada pemahaman yang lebih besar antara rakan sekerja. \\ NIni bukan sahaja dapat meningkatkan hubungan pekerja tetapi juga meningkatkan kolaborasi dan kecekapan ketika orang belajar untuk mencari penyelesaian bersama tanpa selalu membentangkan isu-isu ke rantai organisasi."
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction3-confirm",
-        "value": "Adakah anda pasti mahu membeli penumpuk tambahan?"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction3-confirm-yes",
-        "value": "Ini akan mengelakkan masalah seperti ini berulang lagi"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction3-confirm-no",
-        "value": "Ini bermaksud perbelanjaan besar untuk masalah penjadualan yang jarang berlaku"
-    },
-    {
-        "key": "scenario-stackedagainstus-reaction3-text",
-        "value": "Pihak pengurusan memberitahu anda bahawa mereka dapat membeli stacker lain pada awal suku berikutnya, jika anggaran memungkinkan."
-    },
-    {
-        "key": "scenario-inboundoutbound-header",
-        "value": "Logistik masuk /Logistik keluar"
-    },
-    {
-        "key": "scenario-inboundoutbound-caption",
-        "value": "Anda dapat perhatikan bahawa pasukan logistik keluar berjuang untuk mencapai sasaran mereka untuk hari ini sementara pasukan logistik masuk berehat dan bersembang.  Anda bercakap dengan penyelia aras mengenainya."
-    },
-    {
-        "key": "scenario-inboundoutbound-speech1",
-        "value": "Pasukan logistik masuk secara berkala melengkapkan sasaran mereka pada jam 4 petang.  tetapi tidak mahu untuk membantu pasukan logistik keluar seterusnya."
-    },
-    {
-        "key": "scenario-inboundoutbound-speech2",
-        "value": "Mereka mengatakan bahawa mereka dibayar gaji dan hanya akan melakukan beban kerja yang diberikan kepada mereka pada waktu pagi."
-    },
-    {
-        "key": "scenario-inboundoutbound-description",
-        "value": "Bagaimana anda harus menguruskan situasi yang bertengkar ini?"
-    },
-    {
-        "key": "scenario-inboundoutbound-option1",
-        "value": "Pindahkan beberapa orang dari pasukan logistik masuk ke pasukan logistik keluar"
-    },
-    {
-        "key": "scenario-inboundoutbound-option2",
-        "value": "Galakkan pasukan-pasukan untuk bekerjasama untuk memenuhi objektif perniagaan"
-    },
-    {
-        "key": "scenario-inboundoutbound-option3",
-        "value": "Mengupah pekerja tambahan untuk pasukan logistik keluar"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction1-confirm",
-        "value": "Adakah anda pasti mahu memindahkan beberapa orang dari pasukan masuk ke pasukan keluar secara kekal?"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction1-confirm-yes",
-        "value": "Ini akan menyelesaikan masalah selama-lamanya"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction1-confirm-no",
-        "value": "Saya perlu mencari cara penyelesaian yang lebih tahan lama"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction1-text",
-        "value": "Walaupun memindahkan beberapa orang dari satu pasukan ke pasukan yang lain akan menyelesaikan masalah buat masa ini, keadaannya tidak akan selalu sama.  Lebih penting untuk menyelaraskan tujuan setiap pasukan dengan matlamat keseluruhan organisasi sehingga apa pun syaratnya, pasukan-pasukan tetap akan berasa terdorong untuk mencari jalan untuk mencapai matlamat organisasi bersama-sama."
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction2-confirm",
-        "value": "Adakah anda pasti mahu meluangkan masa untuk memotivasi pasukan-pasukan untuk bekerjasama dan bukannya menyusun semula pasukan-pasukan untuk mencapai sasaran produktiviti pada hari tersebut?"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction2-confirm-yes",
-        "value": "Ini akan memastikan bahawa pasukan berusaha mencapai matlamat bersama"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction2-confirm-no",
-        "value": "Saya perlu memenuhi sasaran hari ini dengan menggunakan apa cara saja."
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction2-text",
-        "value": "Menumpukan masa untuk mendorong pasukan untuk berkolaborasi dan mengingatkan semua orang tentang objektif bersama yang membantu mewujudkan sikap bertanggungjawab. \\nTumpukan perhatian untuk mencari penyelesaian jangka panjang melalui tindakan seperti memotivasi pasukan-pasukan untuk mencapai matlamat kumpulan dan bukannya selalu asyik mengejar tujuan jangka pendek sahaja."
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction3-confirm",
-        "value": "Adakah anda pasti mahu menghabiskan masa dan sumber untuk mengupah lebih ramai pekerja?"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction3-confirm-yes",
-        "value": "Lebih ramai orang bermaksud lebih banyak produktiviti"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction3-confirm-no",
-        "value": "Ia akan memakan kos yang tinggi untuk melatih orang baru"
-    },
-    {
-        "key": "scenario-inboundoutbound-reaction3-text",
-        "value": "Menambah lebih banyak sumber daya untuk pasukan pasti akan membantu meningkatkan produktiviti tetapi juga akan menambah kos tenaga kerja.  Sebagai pengurus, anda harus berhati-hati dengan kos semasa berusaha meningkatkan hasil."
-    }
+      {
+          "key": "intro-header",
+          "value": "Pergaduhan dan Pertengkaraan. Penyelesaian konflik"
+      },
+      {
+          "key": "intro-subtext",
+          "value": "Perselisihan dan ketegangan sangat tinggi di gudang hari ini. Sebagai pengurus, anda harus memainkan peranan sebagai orang tengah untuk menyelesaikan konflik dan mendorong personel berusaha mencapai tujuan bersama. Marilah kita lihat sama ada anda dapat menyelesaikan konflik-konflik yang timbul di sekitar gudang atau tidak."
+      },
+      {
+          "key": "intro-choose-avatar",
+          "value": "Pilih satu ikon untuk mula bermain."
+      },
+      {
+          "key": "intro-start",
+          "value": "Mulakan"
+      },
+      {
+          "key": "yes",
+          "value": "Ya"
+      },
+      {
+          "key": "no",
+          "value": "Tidak"
+      },
+      {
+          "key": "right-option",
+          "value": "Anda telah memilih pilihan yang tepat!"
+      },
+      {
+          "key": "try-again-button",
+          "value": "Cuba lagi"
+      },
+      {
+          "key": "replay-button",
+          "value": "Main semula"
+      },
+      {
+          "key": "complete-header",
+          "value": "Permainan selesai!"
+      },
+      {
+          "key": "complete-congrats",
+          "value": "Tahniah, gudang anda kini menjadi zon bebas konflik!"
+      },
+      {
+          "key": "scenario-kumar-header",
+          "value": "Masalah dengan Kumar"
+      },
+      {
+          "key": "scenario-kumar-caption",
+          "value": "Semasa anda meronda di gudang pada waktu pagi, Dev mendekati anda dengan aduan terhadap rakan sepasukannya, Kumar."
+      },
+      {
+          "key": "scenario-kumar-speech1",
+          "value": "Kumar dan saya dijadualkan dalam syif gudang yang sama."
+      },
+      {
+          "key": "scenario-kumar-speech2",
+          "value": "Dia kerap bermain permainan di dalam telefon bimbitnya semasa saya memilih pesanan."
+      },
+      {
+          "key": "scenario-kumar-speech3",
+          "value": "Saya terpaksa melakukan kebanyakan kerja semasa dia bermain."
+      },
+      {
+          "key": "scenario-kumar-speech4",
+          "value": "Saya pernah meminta dia sebanyak empat kali untuk membantu saya, tetapi dia tidak dengar."
+      },
+      {
+          "key": "scenario-kumar-description",
+          "value": "Anda pernah menegur Kumar pada masa lalu tentang kelakuannya yang malas. Apa jenis tindakan tatatertib yang harus anda lakukan terhadapnya sekarang?"
+      },
+      {
+          "key": "scenario-kumar-option1",
+          "value": "Kirimkan Kumar pemberitahuan penamatan kerjanya."
+      },
+      {
+          "key": "scenario-kumar-option2",
+          "value": "Memarahi Kumar di depan rakan sepasukannya"
+      },
+      {
+          "key": "scenario-kumar-option3",
+          "value": "Tetapkan sasaran produktiviti yang ketat bagi Kumar"
+      },
+      {
+          "key": "scenario-kumar-reaction1-confirm",
+          "value": "Adakah anda pasti mahu memecat Kumar tanpa memberinya peluang untuk bertanggungjawab?"
+      },
+      {
+          "key": "scenario-kumar-reaction1-confirm-yes",
+          "value": "Dia mengganggu produktiviti gudang"
+      },
+      {
+          "key": "scenario-kumar-reaction1-confirm-no",
+          "value": "Saya seorang pelembut, saya tidak dapat memecat sesiapa pun"
+      },
+      {
+          "key": "scenario-kumar-reaction1-text",
+          "value": "Anda telah memecat Kumar tanpa membiarkannya berpeluang untuk memikul tanggungjawab. Ini memberi kesan negatif terhadap moral pekerja. Pekerja-pekerja berasa tindak balas anda tidak sebanding dengan kesalahan Kumar serta berasa kecewa dan bimbang sekarang akan kejaminan pekerjaan mereka sendiri."
+      },
+      {
+          "key": "scenario-kumar-reaction2-confirm",
+          "value": "Adakah anda pasti mahu memalukan Kumar seperti itu?"
+      },
+      {
+          "key": "scenario-kumar-reaction2-confirm-yes",
+          "value": "Saya mahu menghindari pekerja lain daripada bersikap seperti dia"
+      },
+      {
+          "key": "scenario-kumar-reaction2-confirm-no",
+          "value": "Mungkin itu tidak akan membiarkan saya menjalin hubungan yang saling mempercayai"
+      },
+      {
+          "key": "scenario-kumar-reaction2-text",
+          "value": "Anda tukar pakaian Kumar di hadapan orang lain. Dia membencikan anda sekarang kerana dia telah menjadi bahan ketawa kumpulan pekerja gudang. Dia mahu meninggalkan gudang dan rakan-rakannya juga tidak senang hati dengan berlakunya peristiwa tersebut."
+      },
+      {
+          "key": "scenario-kumar-reaction3-confirm",
+          "value": "Adakah anda pasti mahu memberi Kumar peluang kedua?"
+      },
+      {
+          "key": "scenario-kumar-reaction3-confirm-yes",
+          "value": "Ini satu-satunya cara saya dapat membina kepercayaan dalam pasukan"
+      },
+      {
+          "key": "scenario-kumar-reaction3-confirm-no",
+          "value": "Dia kurang berdisiplin dan tidak akan mengubah tingkah lakunya"
+      },
+      {
+          "key": "scenario-kumar-reaction3-text",
+          "value": "Anda melakukan perkara yang betul dengan memberi peluang kepada Kumar untuk memikul tanggungjawab dan menjadi lebih profesional. Anda menjadikan dia dan — secara ekstensifnya — anggota-anggota yang lain dalam pasukan berasa disokong dan terdapat dasar untuk menjalin hubungan kepercayaan yang lebih baik dengan pekerja."
+      },
+      {
+          "key": "scenario-jayandmaya-header",
+          "value": "Jay and Maya"
+      },
+      {
+          "key": "scenario-jayandmaya-caption",
+          "value": "Anda sedang makan di ruang rehat apabila anda terdengar gosip tentang Maya menjerit terhadap Jay sehari sebelum itu. Anda berjumpa dengan Jay dan Maya secara berasingan dan bertanya mereka apa yang telah berlaku."
+      },
+      {
+          "key": "scenario-jayandmaya-speech1",
+          "value": "Saya membersihkan peti sejuk dengan kerap dan secara tidak sengaja telah membuang sisa makanan Maya semalam. Dia benar-benar naik darah dangan saya kerana itu! Tiada siapa pun yang menghargai usaha yang saya lakukan untuk menjaga kebersihan di tempat ini."
+      },
+      {
+          "key": "scenario-jayandmaya-speech2",
+          "value": "Saya telah meninggalkan beberapa bungkus makanan di dalam peti sejuk dan mendapati semuanya hilang! Apa yang memberi hak kepada Jay untuk membuangnya? Semua orang seharusnya menghormati barang peribadi orang lain ..."
+      },
+      {
+          "key": "scenario-jayandmaya-description",
+          "value": "Jay dan Maya tidak bercakap antara satu sama lain. Bagaimana anda harus menangani keadaan ini?"
+      },
+      {
+          "key": "scenario-jayandmaya-option1",
+          "value": "Elakkan konfrontasi selagi tidak mempengaruhi produktiviti mereka"
+      },
+      {
+          "key": "scenario-jayandmaya-option2",
+          "value": "Bercakap dengan Maya dan beritahu dia agar tidak mengambil ambil hati terhadap tindakan Jay"
+      },
+      {
+          "key": "scenario-jayandmaya-option3",
+          "value": "Memudahkan perbincangan antara keduanya untuk mencapai penyelesaian"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction1-confirm",
+          "value": "Adakah anda pasti mahu mengelakkan sebarang konfrontasi?"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction1-confirm-yes",
+          "value": "Ia akan termuncul perasaan tidak selesa"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction1-confirm-no",
+          "value": "Saya harus mengatasinya dengan sesuatu penyelesaian"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction1-text",
+          "value": "Tidak baik membiarkan konflik meletus di tempat kerja. Ia tidak dapat mempengaruhi produktiviti mereka, tetapi mungkin mempengaruhi suasana seluruh persekitaran di tempat kerja dan ada kemungkinan sebenarnya salah satu atau kedua-dua individu tersebut akan terlibat dalam tingkah laku pasif-agresif."
+      },
+      {
+          "key": "scenario-jayandmaya-reaction2-confirm",
+          "value": "Adakah anda pasti mahu bercakap dengan Maya sahaja?"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction2-confirm-yes",
+          "value": "Perbuatan Jay itu adalah tidak sengaja dan Maya tidak seharusnya menjerit terhadap Jay"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction2-confirm-no",
+          "value": "Saya harus membawa Maya dan Jay ke perbincangan terbuka"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction2-text",
+          "value": "Penyelidikan menunjukkan bahawa memberitahu orang agar tidak ambil hati apabila berlakunya konflik biasanya tidak akan berjaya. Terlepas dari penafian seperti itu, ada kemungkinan besar Maya akan menyimpan dendam terhadap Jay dan akhirnya akan mempengaruhi hubungan kerja mereka."
+      },
+      {
+          "key": "scenario-jayandmaya-reaction3-confirm",
+          "value": "Adakah anda pasti mahu meluangkan masa untuk membincangkan isu kecil seperti ini?"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction3-confirm-yes",
+          "value": "Sekiranya mereka tidak membincangkannya, mereka akan melakukan sesuatu"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction3-confirm-no",
+          "value": "Mengapa menghasut lagi sedangkan tidak perlu?"
+      },
+      {
+          "key": "scenario-jayandmaya-reaction3-text",
+          "value": "Semakin cepat anda mengatasi masalah dan membolehkan pekerja terlibat dalam dialog bersama, semakin cepat mereka dapat kembali ke hubungan kerja yang sihat dan tetap produktif dan melibatkan diri. Minta kedua-dua pihak untuk berkongsi perspektif mereka dan jemput mereka untuk mengemukakan idea untuk penyelesaian yang mungkin merangkumi permintaan maaf atau perubahan tingkah laku (misalnya, melabelkan bekas makanan dalam kes ini) untuk mengelakkan pertikaian yang serupa berulang."
+      },
+      {
+          "key": "scenario-stackedagainstus-header",
+          "value": "Ditimbun Terhadap Kami"
+      },
+      {
+          "key": "scenario-stackedagainstus-caption",
+          "value": "Dua ketua pasukan berjumpa anda di pejabat anda dengan konflik penjadualan yang mana mereka tidak dapat menyelesaikan dengan penyelesaian yang baik."
+      },
+      {
+          "key": "scenario-stackedagainstus-speech1",
+          "value": "Kedua-dua pasukan kami dijadualkan untuk melakukan pemeriksaan ketepatan inventori sekarang untuk dua pelanggan yang berbeza. Seperti yang anda ketahui, kami hanya mempunyai satu penumpuk elektrik di gudang, dan kedua pasukan kami memerlukannya untuk menurunkan produk dari rak tugas berat."
+      },
+      {
+          "key": "scenario-stackedagainstus-speech2",
+          "value": "Kami tidak dapat mencapai kompromi tentang pasukan manakah yang patut mendapat penumpuk elektrik tersebut?"
+      },
+      {
+          "key": "scenario-stackedagainstus-description",
+          "value": "Bagaimana anda harus menguruskan konflik antara kumpulan ini?"
+      },
+      {
+          "key": "scenario-stackedagainstus-option1",
+          "value": "Analisis beban dan keutamaan pelanggan dan peruntukkan penumpuk dengan sewajarnya"
+      },
+      {
+          "key": "scenario-stackedagainstus-option2",
+          "value": "Memotivasikan ketua pasukan untuk bekerjasama mencari penyelesaian terbaik"
+      },
+      {
+          "key": "scenario-stackedagainstus-option3",
+          "value": "Beritahu pihak pengurusan bahawa anda perlu membeli penumpuk lain untuk gudang"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction1-confirm",
+          "value": "Adakah anda pasti mahu membuat keputusan ini bagi pihak kedua-dua pihak?"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction1-confirm-yes",
+          "value": "Ini akan menjadi cara paling mudah untuk menyelesaikan konflik ini"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction1-confirm-no",
+          "value": "Saya ingin memupuk kemahiran membuat keputusan dalam kakitangan saya"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction1-text",
+          "value": "Anda menganalisis beban dan keutamaan operasi pelanggan-pelanggan dan membuat keputusan untuk memperuntukkan penumpuk untuk pihak yang membawa pendapatan lebih banyak setelah memeriksa inventori pelanggan-pelanggan. Ketua pasukan yang bertanggungjawab atas akaun yang lain tidak puas hati dengan keputusan anda, dan terdapat perbincangan terbuka yang berpendapat bahawa anda menunjukkan sikap pilih kasih. Selain itu, ini tidak memberi keyakinan kepada orang lain bahawa mereka mampu menangani masalah sendiri."
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction2-confirm",
+          "value": "Adakah anda pasti mahu meluangkan masa untuk memotivasi ketua-ketua pasukan untuk mencari penyelesaian bersama? Lebih mudah untuk membuat keputusan anda sendiri."
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction2-confirm-yes",
+          "value": "Ketua-ketua pasukan seharusnya dapat bekerjasama dalam penyelesaian"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction2-confirm-no",
+          "value": "Betul, lebih senang jika membuat keputusan sendiri"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction2-text",
+          "value": "Membolehkan ahli-ahli pasukan bekerjasama dalam mencari penyelesaian adalah pendekatan yang bagus. Perbincangan terbuka yang memandang dari perspektif kedua-dua pihak dan mengenal pasti kesan konflik terhadap operasi mereka yang masing-masing dapat membawa pemahaman yang lebih baik antara rakan sekerja. Ini bukan sahaja dapat meningkatkan hubungan pekerja tetapi juga meningkatkan kolaborasi dan kecekapan ketika personel belajar untuk mencari penyelesaian bersama tanpa selalu membentangkan saja isu-isu ke rantai organisasi."
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction3-confirm",
+          "value": "Adakah anda pasti mahu membeli penumpuk tambahan?"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction3-confirm-yes",
+          "value": "Ini akan mengelakkan masalah seperti ini berulang lagi"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction3-confirm-no",
+          "value": "Ini bermaksud perbelanjaan besar untuk masalah penjadualan yang jarang berlaku"
+      },
+      {
+          "key": "scenario-stackedagainstus-reaction3-text",
+          "value": "Pihak pengurusan memberitahu anda bahawa mereka hanya dapat membeli penumpuk lain pada awal suku tahun berikutnya, jika perbelanjaan mengizinkan."
+      },
+      {
+          "key": "scenario-inboundoutbound-header",
+          "value": "Logistik masuk /Logistik keluar"
+      },
+      {
+          "key": "scenario-inboundoutbound-caption",
+          "value": "Anda dapat perhatikan bahawa pasukan logistik keluar berusaha untuk mencapai sasaran harian mereka sedangkan pasukan logistik masuk duduk berehat dan bersembang. Anda bercakap dengan penyelia aras mengenainya."
+      },
+      {
+          "key": "scenario-inboundoutbound-speech1",
+          "value": "Pasukan logistik masuk secara berkalanya mencapai sasaran mereka pada jam 4 petang. tetapi tidak mahu membantu pasukan logistik keluar seterusnya."
+      },
+      {
+          "key": "scenario-inboundoutbound-speech2",
+          "value": "Mereka mengatakan bahawa pasukan lain juga dibayar gaji dan hanya akan melakukan tugas kerja yang diberikan kepada mereka pada waktu pagi."
+      },
+      {
+          "key": "scenario-inboundoutbound-description",
+          "value": "Bagaimana anda harus menguruskan situasi bertikaian ini?"
+      },
+      {
+          "key": "scenario-inboundoutbound-option1",
+          "value": "Menukar beberapa orang dari pasukan logistik masuk ke pasukan logistik keluar"
+      },
+      {
+          "key": "scenario-inboundoutbound-option2",
+          "value": "Menggalakkan pasukan-pasukan untuk bekerjasama demi memenuhi objektif perniagaan"
+      },
+      {
+          "key": "scenario-inboundoutbound-option3",
+          "value": "Mengupah pekerja tambahan bagi pasukan logistik keluar"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction1-confirm",
+          "value": "Adakah anda pasti mahu menukarkan beberapa orang dari pasukan logistik masuk ke pasukan logistik keluar secara kekal?"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction1-confirm-yes",
+          "value": "Ini akan menyelesaikan masalah selama-lamanya"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction1-confirm-no",
+          "value": "Saya perlu mencari cara penyelesaian yang lebih tahan lama"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction1-text",
+          "value": "Walaupun memindahkan beberapa orang dari satu pasukan ke pasukan yang lain akan menyelesaikan masalah buat masa ini, namun keadaannya tidak akan sentiasa sama. Lebih penting untuk menyelaraskan matlamat setiap pasukan dengan matlamat keseluruhan organisasi sehingga apa pun syaratnya, pasukan-pasukan tetap akan berasa terdorong untuk mencari jalan demi mencapai matlamat organisasi bersama."
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction2-confirm",
+          "value": "Adakah anda pasti mahu meluangkan masa untuk memotivasi pasukan-pasukan untuk bekerjasama dan bukannya menyusun semula pasukan-pasukan untuk mencapai sasaran produktiviti pada hari tersebut?"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction2-confirm-yes",
+          "value": "Ini akan memastikan bahawa pasukan-pasukan berusaha mencapai matlamat bersama"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction2-confirm-no",
+          "value": "Saya perlu memenuhi sasaran hari ini dengan menggunakan apa cara saja."
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction2-text",
+          "value": "Menumpukan masa untuk mendorong pasukan untuk berkolaborasi dan mengingatkan semua orang tentang matlamat bersama yang membantu mewujudkan sikap bertanggungjawab. Tumpukan perhatian untuk mencari penyelesaian jangka panjang melalui tindakan seperti memotivasi pasukan-pasukan untuk mencapai matlamat kumpulan dan bukannya selalu asyik mengejar matlamat jangka pendek sahaja."
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction3-confirm",
+          "value": "Adakah anda pasti mahu menghabiskan masa dan sumber untuk mengupah lebih ramai pekerja?"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction3-confirm-yes",
+          "value": "Lebih ramai orang bermaksud lebih banyak produktiviti"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction3-confirm-no",
+          "value": "Ia akan membelanjakan kos yang tinggi untuk melatih orang baru"
+      },
+      {
+          "key": "scenario-inboundoutbound-reaction3-text",
+          "value": "Menambah lebih banyak sumber daya untuk pasukan pasti akan membantu meningkatkan produktiviti tetapi ia juga akan menambah kos tenaga kerja. Sebagai pengurus, anda harus berhati-hati dengan kos semasa berusaha meningkatkan daya pemprosesan."
+      }
   ],
-"levelsCompleted": []
+  "levelsCompleted": []
 }
