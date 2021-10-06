@@ -25,7 +25,7 @@ const ConflictModalContent = (props: Props) => {
     if (selectedOption === null) return null;
     return props.content.reactions[selectedOption];
   }, [props.content.reactions, selectedOption]);
-  
+
   const [confirmed, setConfirmed] = useState(selectedAnswer != null);
   const [sceneConfig, setSceneConfig] = useState<SceneElement[]>(reaction?.scene || props.content.scene);
   const balloonRef = useRef<HTMLDivElement>(null);
@@ -66,7 +66,7 @@ const ConflictModalContent = (props: Props) => {
   };
 
   useEffect(() => {
-    sound.add('correct', `${process.env.PUBLIC_URL}/sound/correct.mp3`);    
+    sound.add('correct', `${process.env.PUBLIC_URL}/sound/correct.mp3`);
     sound.add('wrong', `${process.env.PUBLIC_URL}/sound/wrong.mp3`);
   }, []);
 
@@ -101,9 +101,9 @@ const ConflictModalContent = (props: Props) => {
             balloonRef.current!.className = `balloon ${sequenceItem.type}`;
           }
           balloonText.innerHTML = translations[sequenceItem.text];
-          
+
           if (sequenceItem.balloonArrowPos && balloonArrowRef.current) {
-            balloonArrowRef.current!.style.right = `${sequenceItem.balloonArrowPos}%`;  
+            balloonArrowRef.current!.style.right = `${sequenceItem.balloonArrowPos}%`;
           }
           positionArrow();
         }
@@ -111,16 +111,16 @@ const ConflictModalContent = (props: Props) => {
         if (sequenceItem.scene) {
           setSceneConfig(sequenceItem.scene);
         }
-      } 
+      }
 
       tl.add(`seq-${index}`);
       switch (sequenceItem.type) {
         case SequenceItemType.caption:
           tl.to(balloonText, {
             onStart,
-            duration: translations[sequenceItem.text].length * 0.025 / SPEED_MODIFIER,
+            duration: translations[sequenceItem.text].length * 0.045 / SPEED_MODIFIER,
             text: {
-              value: translations[sequenceItem.text], 
+              value: translations[sequenceItem.text],
               oldClass: "hidden",
               newClass: "visible"
             },
@@ -131,7 +131,7 @@ const ConflictModalContent = (props: Props) => {
         case SequenceItemType.speech:
           tl.to(balloonText, {
             onStart,
-            duration: translations[sequenceItem.text].length * 0.045 / SPEED_MODIFIER,
+            duration: translations[sequenceItem.text].length * 0.065 / SPEED_MODIFIER,
             ease: Linear.easeNone,
           });
           break;
@@ -165,7 +165,7 @@ const ConflictModalContent = (props: Props) => {
     // Slide inset in
     tl.to(inset, {
       onStart: () => {
-        if (nextButtonRef.current) 
+        if (nextButtonRef.current)
           nextButtonRef.current!.style.display = "none";
 
         if (balloonArrowRef.current)
@@ -263,7 +263,7 @@ const ConflictModalContent = (props: Props) => {
          <button onClick={handleNo} className="button-replay">
            {translations["try-again-button"]}
          </button>
-        )}     
+        )}
       </>
     )
   }
@@ -312,7 +312,7 @@ const ConflictModalContent = (props: Props) => {
             {content.options.map((option, index) => renderOption(option, index))}
           </ul>
           { renderReaction() }
-        </div> 
+        </div>
       </div>
       { !selectedOption && (
         <div className="controls-bottomright">
