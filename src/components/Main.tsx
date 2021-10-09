@@ -47,10 +47,13 @@ const Main = (props: Props) => {
       const width = Math.min(window.innerWidth, window.outerWidth);
       const height = Math.min(window.innerHeight, window.outerHeight);
       setCanvasWidth(width);
-      setCanvasHeight(height); 
+      setCanvasHeight(height);
     }
     resize();
 
+    window.storeGameEvent({
+      code: "ganeStarted"
+    })
     window.addEventListener("resize", resize);
     return () => {
       window.removeEventListener("resize", resize);
@@ -61,7 +64,7 @@ const Main = (props: Props) => {
     // Center the map
     if (viewportRef.current) {
       const viewport = viewportRef.current;
-      viewport.moveCenter(worldWidth / 2, worldHeight / 2);  
+      viewport.moveCenter(worldWidth / 2, worldHeight / 2);
       viewport.scale = new PIXI.Point(0.5, 0.5);
     }
   }, [canvasWidth, canvasHeight]);
@@ -81,7 +84,7 @@ const Main = (props: Props) => {
     sound.add('plops', {
       url: `${process.env.PUBLIC_URL}/sound/plops.wav`,
       autoPlay: true,
-    });    
+    });
   }, []);
 
   const handleMarkerClick = (content: ConflictContent, index: number) => {
@@ -106,21 +109,21 @@ const Main = (props: Props) => {
     }
     return content?.[selectedSituation];
   }, [content, selectedSituation]);
-  
+
   const renderMarker = (contentItem: ConflictContent, index: number) => {
     const delay = index * 0.5;
     const position = new PIXI.Point(contentItem.position[0], contentItem.position[1]);
     const bounce = answers[index] === undefined;
 
     return (
-      <Marker 
-        position={position} 
+      <Marker
+        position={position}
         pointerdown={() => handleMarkerClick(contentItem, index)}
         delay={delay}
         bounce={bounce}
         key={contentItem.position.join('-')}
       />
-    ); 
+    );
   }
 
   return (
@@ -140,22 +143,22 @@ const Main = (props: Props) => {
           </Sprite>
         </Viewport>
       </Stage>
-      <Legenda 
-        avatar={props.avatar} 
+      <Legenda
+        avatar={props.avatar}
         translations={translations}
-        content={content} 
-        answers={answers} 
+        content={content}
+        answers={answers}
         setSituationSelected={setSelectedSituation}
       />
       { selectedContent && (
-        <ContentModal 
+        <ContentModal
           content={selectedContent}
           translations={translations}
           onClose={handleClose}
           avatar={avatar}
           setCorrectAnswer={handleCorrectAnswer}
           selectedAnswer={(answers[selectedSituation!])}
-        /> 
+        />
       )}
     </>
   )

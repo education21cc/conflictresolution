@@ -4,77 +4,94 @@ import './style/styles.css';
 import { ReactComponent as CloseIcon } from './style/close.svg';
 
 interface Props {
-    gameDataReceived: (gameData: any) => void;
+  gameDataReceived: (gameData: any) => void;
 }
 
-const PlayerBridge = (props: Props) => {   
-    const {gameDataReceived} = props;
+export type GameEvent = {
+  code: string,
+  level?: number,
+  additionalInfo?: string
+}
 
-    const exit = () => {       
-        send({
-            type: 'exit'
-        });
-    }
+declare global {
+  interface Window {
+    setGameData: (gameData: any) => void;
+    storeGameEvent: (gameData: any) => void;
+    getGameData: () => any
+    GAMEDATA: any
+  }
+}
 
-    
-    useEffect(() => {
-        if (!process.env.REACT_APP_PLAYER_MODE) {
-            return;
-        }
-        
-        const receiveMessage = (msg: any) => {
-            if (!msg.data.hasOwnProperty('userId')){
-                return;
-            }
-            // @ts-ignore
-            window.GAMEDATA = msg.data;
-            gameDataReceived(msg.data);
-        }
+const PlayerBridge = (props: Props) => {
+  const {gameDataReceived} = props;
 
-        // @ts-ignore
-        window.setGameData = (gameData) => {
-            send({
-                type: 'setGameData',
-                data: gameData
-            });
-        }
-       
-        // @ts-ignore
-        window.GAMEDATA = null; 
-        
-        // @ts-ignore
-        window.getGameData = () => {
-            // @ts-ignore
-            return window.GAMEDATA;
-        }   
-        window.addEventListener("message", receiveMessage, false);
-    }, [gameDataReceived]);
+  const exit = () => {
+    send({
+      type: 'exit'
+    });
+  }
 
+
+  useEffect(() => {
     if (!process.env.REACT_APP_PLAYER_MODE) {
-        return null;
+      return;
     }
 
+    const receiveMessage = (msg: any) => {
+      if (!msg.data.hasOwnProperty('userId')){
+        return;
+      }
+      window.GAMEDATA = msg.data;
+      gameDataReceived(msg.data);
+    }
 
-    return (
-        <div className="close">
-            <CloseIcon onClick={exit} />
-        </div>
-    )
+    window.setGameData = (gameData: any) => {
+      send({
+        type: 'setGameData',
+        data: gameData
+      });
+    }
+
+    window.storeGameEvent = (gameEvent: GameEvent) => {
+      send({
+        type: 'gameEvent',
+        data: gameEvent
+      });
+    }
+
+    window.GAMEDATA = null;
+
+    window.getGameData = () => {
+      return window.GAMEDATA;
+    }
+    window.addEventListener("message", receiveMessage, false);
+  }, [gameDataReceived]);
+
+  if (!process.env.REACT_APP_PLAYER_MODE) {
+    return null;
+  }
+
+
+  return (
+    <div className="close">
+      <CloseIcon onClick={exit} />
+    </div>
+  )
 }
 
 export default PlayerBridge;
 
 
 export const send = (payload: any) => {
+  // @ts-ignore
+  if (window.hasOwnProperty("webkit") && window.webkit.hasOwnProperty("messageHandlers")){
+    var stringifiedMessageObj = JSON.stringify(payload);
+    // Send to In App Browser context
     // @ts-ignore
-    if (window.hasOwnProperty("webkit") && window.webkit.hasOwnProperty("messageHandlers")){
-        var stringifiedMessageObj = JSON.stringify(payload);
-        // Send to In App Browser context
-        // @ts-ignore
-        webkit.messageHandlers.cordova_iab.postMessage(stringifiedMessageObj);
-    }
-    else {
-        // @ts-ignore
-        window.parent.postMessage(payload, '*');
-    }
+    webkit.messageHandlers.cordova_iab.postMessage(stringifiedMessageObj);
+  }
+  else {
+    // @ts-ignore
+    window.parent.postMessage(payload, '*');
+  }
 }

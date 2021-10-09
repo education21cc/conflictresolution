@@ -82,7 +82,7 @@ const IntroModal = (props: Props) => {
         </div>
       </div>
     </ReactModal>
-    )
+  )
 }
 
 const getAvatarImage = (avatar: string) => {
