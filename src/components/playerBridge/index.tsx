@@ -4,6 +4,7 @@ import './style/styles.css';
 import { ReactComponent as CloseIcon } from './style/close.svg';
 
 interface Props {
+  disableBackButton?: boolean;
   gameDataReceived: (gameData: any) => void;
 }
 
@@ -16,61 +17,56 @@ export type GameEvent = {
 declare global {
   interface Window {
     setGameData: (gameData: any) => void;
-    storeGameEvent: (gameData: any) => void;
+    storeGameEvent: (gameEvent: GameEvent) => void;
     getGameData: () => any
     GAMEDATA: any
   }
 }
 
 const PlayerBridge = (props: Props) => {
-  const {gameDataReceived} = props;
-
-  const exit = () => {
-    send({
-      type: 'exit'
-    });
-  }
-
+  const {gameDataReceived, disableBackButton} = props;
 
   useEffect(() => {
+    /* Add the following to index.html
+    <script>
+      const receiveMessage = (msg) => {
+        if (!msg.data.hasOwnProperty('content')){
+            return;
+        }
+        window.GAMEDATA = msg.data;
+      }
+      window.addEventListener("message", receiveMessage, false);
+    </script>
+    */
     if (!process.env.REACT_APP_PLAYER_MODE) {
       return;
     }
 
-    const receiveMessage = (msg: any) => {
-      if (!msg.data.hasOwnProperty('userId')){
-        return;
-      }
-      window.GAMEDATA = msg.data;
-      gameDataReceived(msg.data);
-    }
-
-    window.setGameData = (gameData: any) => {
-      send({
-        type: 'setGameData',
-        data: gameData
-      });
-    }
-
-    window.storeGameEvent = (gameEvent: GameEvent) => {
-      send({
-        type: 'gameEvent',
-        data: gameEvent
-      });
-    }
-
-    window.GAMEDATA = null;
-
     window.getGameData = () => {
       return window.GAMEDATA;
     }
-    window.addEventListener("message", receiveMessage, false);
+
+    const check = () => {
+      if (window.GAMEDATA) {
+        clearInterval(interval);
+        gameDataReceived(window.GAMEDATA);
+      }
+    }
+    // cordova iab just sets window.GAMEDATA
+    let interval = setInterval(check, 250);
+
+    return () => {
+      clearInterval(interval);
+    }
   }, [gameDataReceived]);
 
   if (!process.env.REACT_APP_PLAYER_MODE) {
     return null;
   }
 
+  if (disableBackButton === true) {
+    return null;
+  }
 
   return (
     <div className="close">
@@ -81,6 +77,25 @@ const PlayerBridge = (props: Props) => {
 
 export default PlayerBridge;
 
+const exit = () => {
+  send({
+    type: 'exit'
+  });
+}
+
+window.setGameData = (gameData: any) => {
+  send({
+    type: 'setGameData',
+    data: gameData
+  });
+}
+
+window.storeGameEvent = (gameEvent: GameEvent) => {
+  send({
+    type: 'gameEvent',
+    data: gameEvent
+  });
+}
 
 export const send = (payload: any) => {
   // @ts-ignore
